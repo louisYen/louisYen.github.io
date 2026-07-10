@@ -135,9 +135,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/he-yen-hsieh/"
-    - label: "Harvard University"
-      icon: "fas fa-fw fa-university"
-      url: "https://www.harvard.edu/"
+        - label: "Harvard SEAS"
+      icon: "fas fa-fw fa-shield-alt"
+      url: "https://seas.harvard.edu/"
 
 # Site Footer
 footer:
