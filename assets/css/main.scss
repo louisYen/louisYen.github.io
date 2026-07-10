@@ -428,8 +428,17 @@ search: false
   }
 }
 
-/* Sidebar Harvard icon color */
-
+/* Harvard SEAS shield icon: black top + crimson body */
 .author__urls a[href*="seas.harvard.edu"] i {
-  color: #a51c30;
+  background: linear-gradient(
+    to bottom,
+    #222222 0%,
+    #222222 28%,
+    #a51c30 28%,
+    #a51c30 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
