@@ -442,3 +442,20 @@ search: false
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+
+/* Add a small black cross on the shield */
+.author__urls a[href*="seas.harvard.edu"] {
+  position: relative;
+}
+
+.author__urls a[href*="seas.harvard.edu"]::after {
+  content: "+";
+  position: absolute;
+  left: 0.27em;
+  top: 0.03em;
+  font-size: 0.55em;
+  font-weight: 800;
+  line-height: 1;
+  color: #111111;
+  pointer-events: none;
+}
