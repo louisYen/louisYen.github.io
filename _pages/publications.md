@@ -4,17 +4,11 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 classes: wide publications-page
-toc: true
-toc_sticky: true
-toc_label: "On this page"
-toc_icon: "list"
 ---
 
 For a complete and up-to-date list of my publications, please see my
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=0IT2ct8AAAAJ&view_op=list_works&sortby=pubdate).
 
-### Alfa: Attentive Low-Rank Filter Adaptation for Structure-Aware Cross-Domain Personalized Gaze Estimation
-{: .toc-only-heading}
 
 <div class="publication-card pub-adaptation">
 
@@ -50,9 +44,6 @@ For a complete and up-to-date list of my publications, please see my
 
   </div>
 </div>
-
-### DFT Gaze: Distilled and Fine-Tuned Gaze Estimation for Personalization on Tiny Devices
-{: .toc-only-heading}
 
 <div class="publication-card pub-adaptation">
 
@@ -90,9 +81,6 @@ For a complete and up-to-date list of my publications, please see my
   </div>
 </div>
 
-### EDIT: Early Diffusion Inference Termination for dLLMs Based on Dynamics of Training Gradients
-{: .toc-only-heading}
-
 <div class="publication-card pub-compression">
 
   <div class="publication-thumb">
@@ -124,6 +112,45 @@ For a complete and up-to-date list of my publications, please see my
         <i class="fas fa-file-pdf"></i> Paper
       </a>
       <a href="https://github.com/louisYen/EDIT" class="pub-link">
+        <i class="fab fa-github"></i> Code
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<div class="publication-card pub-generative">
+
+  <div class="publication-thumb">
+    <img src="/assets/images/publications/gen4gen.png" alt="Gen4Gen paper thumbnail">
+  </div>
+
+  <div class="publication-content">
+
+    <div class="publication-venue">BMVC 2025</div>
+
+    <h3 class="publication-title">
+      Gen4Gen: Generative Data Pipeline for Generative Multi-Concept Composition
+    </h3>
+
+    <p class="publication-authors">
+      Chun-Hsiao Yeh*, Ta-Ying Cheng*, <strong>He-Yen Hsieh*</strong>, Chuan-En Lin,
+      Yi Ma, Andrew Markham, Niki Trigoni, H. T. Kung, Yubei Chen
+    </p>
+
+    <p class="publication-desc">
+      Gen4Gen builds a generative data pipeline for creating high-quality multi-concept image-text pairs and improving multi-concept personalized generation.
+    </p>
+
+    <div class="publication-tags">
+      Generative AI · Synthetic data · Multi-concept personalization · Text-to-image generation · Benchmark dataset
+    </div>
+
+    <div class="publication-links">
+      <a href="https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_28/paper.pdf" class="pub-link">
+        <i class="fas fa-file-pdf"></i> Paper
+      </a>
+      <a href="https://github.com/louisYen/Gen4Gen" class="pub-link">
         <i class="fab fa-github"></i> Code
       </a>
     </div>
