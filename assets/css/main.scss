@@ -557,6 +557,29 @@ search: false
   }
 }
 
+/* Keep right-side TOC usable on wide publication pages */
+.layout--single.wide .sidebar__right {
+  margin-right: 0;
+}
+
+.layout--single.wide .page {
+  padding-right: 300px;
+}
+
+.layout--single.wide .sidebar__right {
+  width: 260px;
+}
+
+@media (max-width: 1024px) {
+  .layout--single.wide .page {
+    padding-right: 0;
+  }
+
+  .layout--single.wide .sidebar__right {
+    width: auto;
+  }
+}
+
 /* Harvard SEAS shield icon: black top + crimson body */
 .author__urls a[href*="seas.harvard.edu"] i {
   background: linear-gradient(
