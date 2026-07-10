@@ -56,7 +56,7 @@ My research centers on making AI practical under limited data, compute, and memo
         <div class="node-desc">
           Adapting compact models with only a few samples.
         </div>
-        <div class="node-tags">PEFT/LoRA · Cross-domain adaptation · Gaze estimation</div>
+        <div class="node-tags">AR/VR · On-device AI · Personalization · Human-computer interaction</div>
       </a>
 
       <div class="project-list">
@@ -92,7 +92,7 @@ My research centers on making AI practical under limited data, compute, and memo
         <div class="node-desc">
           Reducing model size and inference cost for deployment.
         </div>
-        <div class="node-tags">PTQ · Distillation · Efficient inference</div>
+        <div class="node-tags">LLM deployment · Quantization · Efficient inference · Edge AI</div>
       </a>
 
       <div class="project-list">
@@ -139,7 +139,7 @@ My research centers on making AI practical under limited data, compute, and memo
         <div class="node-desc">
           Building personalized and controllable generative systems.
         </div>
-        <div class="node-tags">Personalization · Data synthesis · Gaze-guided interaction</div>
+        <div class="node-tags">Creative AI · Synthetic data · Personalized generation · Gaze-guided interactive AI</div>
       </a>
 
       <div class="project-list">
@@ -186,7 +186,7 @@ My research centers on making AI practical under limited data, compute, and memo
         <div class="node-desc">
           Object detection, video anomaly detection, and action localization
         </div>
-        <div class="node-tags">One-shot learning · Detection · Video understanding</div>
+        <div class="node-tags">Video understanding · Object detection · Action localization · Few-shot learning</div>
       </a>
 
       <div class="project-list">
