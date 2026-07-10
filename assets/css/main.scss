@@ -428,6 +428,31 @@ search: false
   }
 }
 
+/* Publications */
+.pub-adaptation {
+  --pub-color: #4a90a4;
+  --pub-bg: #f3fafc;
+  --pub-border: #b9dce6;
+}
+
+.pub-compression {
+  --pub-color: #4f8f65;
+  --pub-bg: #f4fbf6;
+  --pub-border: #bfe0c8;
+}
+
+.pub-generative {
+  --pub-color: #8a6fb0;
+  --pub-bg: #faf7ff;
+  --pub-border: #d6c7ee;
+}
+
+.pub-vision {
+  --pub-color: #b1783f;
+  --pub-bg: #fff8f1;
+  --pub-border: #e8cda9;
+}
+
 /* Harvard SEAS shield icon: black top + crimson body */
 .author__urls a[href*="seas.harvard.edu"] i {
   background: linear-gradient(
