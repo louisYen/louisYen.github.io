@@ -13,7 +13,7 @@ I enjoy building machine learning algorithms that make AI models smaller, faster
 
 Before and during my Ph.D., I have been fortunate to work with researchers at Intel, Reality Labs Research at Meta, Adobe Research, and Academia Sinica. My work has been published at CVPR, AAAI, ECCV, WACV, ICIP, and ICASSP.
 
-I’m always happy to connect with people interested in efficient AI, model compression, generative models, or research ideas that make AI easier to deploy in real-world settings.
+I’m always happy to connect with people interested in efficient AI, model compression, generative models, or research ideas for making AI smaller, faster, easier to adapt, and still accurate.
 
 ---
 
