@@ -30,7 +30,7 @@ search: false
 
 .about-section {
   position: relative;
-  width: min(900px, calc(100vw - 380px));
+  width: min(760px, calc(100vw - 420px));
   max-width: none;
   left: 50%;
   transform: translateX(-50%);
@@ -79,7 +79,7 @@ search: false
 
 .roadmap-tree {
   position: relative;
-  width: min(1180px, calc(100vw - 380px));
+  width: min(1050px, calc(100vw - 420px));
   left: 50%;
   transform: translateX(-50%);
   margin: 2.4em 0 3.2em;
@@ -316,11 +316,11 @@ search: false
 
 @media (max-width: 1250px) {
   .roadmap-tree {
-    width: min(1180px, calc(100vw - 56px));
+    width: min(900px, calc(100vw - 420px));
   }
 
   .tree-branches {
-    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
     gap: 2em 1.5em;
   }
 
@@ -331,10 +331,16 @@ search: false
 }
 
 @media (max-width: 720px) {
-  .roadmap-tree {
+  .about-section,
+  .roadmap-tree,
+  .roadmap-details {
     width: 100%;
     left: auto;
     transform: none;
+  }
+
+  .roadmap-tree {
+    margin: 2em 0 2.6em;
   }
 
   .tree-branches {
@@ -355,13 +361,12 @@ search: false
 
 /* Roadmap detail cards */
 
-.roadmap-details {
+.roadmap-tree {
   position: relative;
-  width: min(1000px, calc(100vw - 380px));
-  max-width: none;
+  width: min(1050px, calc(100vw - 420px));
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 2.5em;
+  margin: 2.4em 0 3.2em;
 }
 
 .detail-section {
@@ -444,15 +449,6 @@ search: false
 }
 
 /* Make roadmap detail sections wide like the tree */
-
-.roadmap-details {
-  position: relative;
-  width: min(1120px, calc(100vw - 340px));
-  max-width: none;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 2.5em;
-}
 
 @media (max-width: 720px) {
   .roadmap-details {
@@ -609,7 +605,8 @@ search: false
   padding-right: 240px;
 }
 
-.sidebar__right {
+.page.publications-page ~ .sidebar__right,
+.layout--single.publications-page .sidebar__right {
   width: 220px;
 }
 
