@@ -9,12 +9,13 @@ toc_label: "On this page"
 toc_icon: "list"
 ---
 
-## Publications
-
 For a complete and up-to-date list of my publications, please see my
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=0IT2ct8AAAAJ&view_op=list_works&sortby=pubdate).
 
 <div class="publication-list">
+
+### Alfa: Attentive Low-Rank Filter Adaptation for Structure-Aware Cross-Domain Personalized Gaze Estimation
+{: .toc-only-heading}
 
   <div class="publication-card pub-adaptation">
 
@@ -50,6 +51,9 @@ For a complete and up-to-date list of my publications, please see my
 
     </div>
   </div>
+
+### DFT Gaze: Distilled and Fine-Tuned Gaze Estimation for Personalization on Tiny Devices
+{: .toc-only-heading}
 
   <div class="publication-card pub-adaptation">
 
@@ -87,13 +91,54 @@ For a complete and up-to-date list of my publications, please see my
     </div>
   </div>
 
+### EDIT: Early Diffusion Inference Termination for dLLMs Based on Dynamics of Training Gradients
+{: .toc-only-heading}
+
+  <div class="publication-card pub-compression">
+
+    <div class="publication-thumb">
+      <img src="/assets/images/publications/edit.png" alt="EDIT paper thumbnail">
+    </div>
+
+    <div class="publication-content">
+
+      <div class="publication-venue">NeurIPS OPT 2025</div>
+
+      <h3 class="publication-title">
+        EDIT: Early Diffusion Inference Termination for dLLMs Based on Dynamics of Training Gradients
+      </h3>
+
+      <p class="publication-authors">
+        <strong>He-Yen Hsieh</strong>, Hong Wang, H. T. Kung
+      </p>
+
+      <p class="publication-desc">
+        EDIT speeds up diffusion-based language model reasoning by using training-gradient dynamics to stop inference once generation has stabilized.
+      </p>
+
+      <div class="publication-tags">
+        Reasoning LLMs · Diffusion language models · Efficient inference · Test-time compute
+      </div>
+
+      <div class="publication-links">
+        <a href="https://arxiv.org/pdf/2512.00670" class="pub-link">
+          <i class="fas fa-file-pdf"></i> Paper
+        </a>
+        <a href="https://github.com/louisYen/EDIT" class="pub-link">
+          <i class="fab fa-github"></i> Code
+        </a>
+      </div>
+
+    </div>
+  </div>
+
 </div>
 
 ---
 
 ## Notes
 
-`*` Equal contribution.  
+`*` Equal contribution.
 
 More publications are available on my
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=0IT2ct8AAAAJ&view_op=list_works&sortby=pubdate).
