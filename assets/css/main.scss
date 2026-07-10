@@ -571,16 +571,13 @@ search: false
 }
 
 /* Keep right-side TOC usable on wide publication pages */
-.layout--single.wide .sidebar__right {
-  margin-right: 0;
-}
-
 .layout--single.wide .page {
-  padding-right: 300px;
+  padding-right: 240px;
 }
 
 .layout--single.wide .sidebar__right {
-  width: 260px;
+  width: 220px;
+  margin-right: 0;
 }
 
 @media (max-width: 1024px) {
