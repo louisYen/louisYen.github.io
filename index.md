@@ -7,18 +7,32 @@ permalink: /
 
 ## About Me
 
+## About Me
+
 <div class="about-intro">
 
   <div class="about-text">
+    <p>
+      Hi, I’m He-Yen (Louis) Hsieh, a Ph.D. candidate in Computer Science at Harvard University, advised by
+      <a href="https://www.eecs.harvard.edu/htk/">Prof. H. T. Kung</a>.
+    </p>
 
-Hi, I’m He-Yen (Louis) Hsieh, a Ph.D. candidate in Computer Science at Harvard University, advised by [Prof. H. T. Kung](https://www.eecs.harvard.edu/htk/).
+    <p>
+      I enjoy building machine learning algorithms that make AI models smaller, faster, and easier to adapt.
+      My work spans efficient AI, generative AI, large language models, and computer vision, with recent projects
+      in model adaptation, post-training quantization, knowledge distillation, efficient inference, gaze estimation,
+      and personalization.
+    </p>
 
-I enjoy building machine learning algorithms that make AI models smaller, faster, and easier to adapt. My work spans efficient AI, generative AI, large language models, and computer vision, with recent projects in model adaptation, post-training quantization, knowledge distillation, efficient inference, gaze estimation, and personalization.
+    <p>
+      Before and during my Ph.D., I have been fortunate to work with researchers at Intel, Reality Labs Research at Meta,
+      Adobe Research, and Academia Sinica. My work has been published at CVPR, AAAI, ECCV, WACV, ICIP, and ICASSP.
+    </p>
 
-Before and during my Ph.D., I have been fortunate to work with researchers at Intel, Reality Labs Research at Meta, Adobe Research, and Academia Sinica. My work has been published at CVPR, AAAI, ECCV, WACV, ICIP, and ICASSP.
-
-I’m always happy to connect with people interested in efficient AI, model compression, generative models, or research ideas for making AI smaller, faster, easier to adapt, and still accurate.
-
+    <p>
+      I’m always happy to connect with people interested in efficient AI, model compression, generative models,
+      or research ideas for making AI smaller, faster, easier to adapt, and still accurate.
+    </p>
   </div>
 
   <div class="about-photo">
@@ -26,6 +40,7 @@ I’m always happy to connect with people interested in efficient AI, model comp
   </div>
 
 </div>
+
 ---
 
 ## Research Roadmap
