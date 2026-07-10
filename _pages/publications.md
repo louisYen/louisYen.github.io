@@ -11,6 +11,9 @@ toc_icon: "list"
 
 ## Publications
 
+For a complete and up-to-date list of my publications, please see my
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=0IT2ct8AAAAJ&view_op=list_works&sortby=pubdate).
+
 <div class="publication-list">
 
   <div class="publication-card pub-adaptation">
@@ -36,11 +39,47 @@ toc_icon: "list"
       </p>
 
       <div class="publication-tags">
-        Few-shot adaptation · Cross-domain personalization · Gaze estimation · PEFT/LoRA · Model compression
+        Efficient adaptation · Cross-domain personalization · Gaze estimation · PEFT/LoRA · Model compression
       </div>
 
       <div class="publication-links">
         <a href="https://arxiv.org/pdf/2603.08445" class="pub-link">
+          <i class="fas fa-file-pdf"></i> Paper
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="publication-card pub-adaptation">
+
+    <div class="publication-thumb">
+      <img src="/assets/images/publications/dft-gaze.png" alt="DFT Gaze paper thumbnail">
+    </div>
+
+    <div class="publication-content">
+
+      <div class="publication-venue">ICIP 2025 Spotlight</div>
+
+      <h3 class="publication-title">
+        DFT Gaze: Distilled and Fine-Tuned Gaze Estimation for Personalization on Tiny Devices
+      </h3>
+
+      <p class="publication-authors">
+        <strong>He-Yen Hsieh</strong>, Ziyun Li, Sai Qian Zhang, Wei-Te Mark Ting, Kao-Den Chang,
+        Barbara De Salvo, Chiao Liu, H. T. Kung
+      </p>
+
+      <p class="publication-desc">
+        DFT Gaze combines distillation and fine-tuning into one solution to train a tiny 281K-parameter model for accurate personalized gaze estimation on resource-constrained devices.
+      </p>
+
+      <div class="publication-tags">
+        AR/VR · Eye tracking · Edge AI · 5-shot personalization · Model compression
+      </div>
+
+      <div class="publication-links">
+        <a href="https://www.eecs.harvard.edu/htk/static/files/2025-icip-hsieh-li-zhang-ting-chang-de%20salvo-liu-kung.pdf" class="pub-link">
           <i class="fas fa-file-pdf"></i> Paper
         </a>
       </div>
@@ -55,4 +94,6 @@ toc_icon: "list"
 ## Notes
 
 `*` Equal contribution.  
-More publications are available on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=0IT2ct8AAAAJ&view_op=list_works&sortby=pubdate).
+
+More publications are available on my
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=0IT2ct8AAAAJ&view_op=list_works&sortby=pubdate).
