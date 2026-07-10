@@ -4,7 +4,7 @@ author_profile: true
 permalink: /
 ---
 
-Hi, I’m **He-Yen (Louis) Hsieh**, a Ph.D. researcher in Computer Science at Harvard University, advised by [Prof. H. T. Kung](https://www.eecs.harvard.edu/htk/).
+Hi, I’m He-Yen (Louis) Hsieh, a Ph.D. researcher in Computer Science at Harvard University, advised by [Prof. H. T. Kung](https://www.eecs.harvard.edu/htk/).
 
 I enjoy building machine learning algorithms that make AI models smaller, faster, and easier to adapt. My work spans efficient AI, generative AI, large language models, and computer vision, with recent projects in model adaptation, post-training quantization, knowledge distillation, efficient inference, gaze estimation, and personalization.
 
