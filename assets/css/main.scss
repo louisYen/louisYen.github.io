@@ -593,6 +593,15 @@ search: false
   }
 }
 
+.toc-only-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 /* Harvard SEAS shield icon: black top + crimson body */
 .author__urls a[href*="seas.harvard.edu"] i {
   background: linear-gradient(
