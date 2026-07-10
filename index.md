@@ -225,7 +225,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2026</span>
         </div>
         <p>
-          Few-shot cross-domain gaze adaptation by attending to already learned pre-trained weights and learning new task-specific patterns.
+          Adapts to new domains with only 5 samples by reusing pre-trained knowledge, making the model 5× smaller while keeping or improving accuracy.
         </p>
         <div class="detail-tags">AAAI 2026 · Cross-domain adaptation · Model compression · Gaze estimation</div>
       </article>
@@ -236,7 +236,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2025</span>
         </div>
         <p>
-          Combines distillation and fine-tuning into one solution to train a tiny 281K-parameter model for accurate personalized gaze estimation.
+          Compresses gaze estimation to a tiny 281K-parameter model, keeping 90% of the precision of a 10× larger model while supporting real-time personalization on edge devices.
         </p>
         <div class="detail-tags">ICIP Spotlight 2025 · 5-shot · Model compression · Gaze estimation</div>
       </article>
@@ -254,7 +254,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">Ongoing</span>
         </div>
         <p>
-          Low-bit LLM quantization without relying on calibration data.
+          Makes 3-/4-bit LLM deployment easier when calibration data is unavailable or hard to collect.
         </p>
         <div class="detail-tags">LLMs · PTQ · Quantization</div>
       </article>
@@ -265,7 +265,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2025</span>
         </div>
         <p>
-          Compresses gaze estimation into a small model that can run efficiently while keeping strong personalization ability.
+          Compresses gaze estimation to a tiny 281K-parameter model, keeping 90% of the precision of a 10× larger model while supporting real-time personalization on edge devices.
         </p>
         <div class="detail-tags">ICIP Spotlight 2025 · Distillation · Edge AI · Gaze estimation</div>
       </article>
@@ -276,7 +276,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2025</span>
         </div>
         <p>
-          Reduces diffusion language model inference cost by stopping generation once the model has stabilized.
+          Speeds up diffusion-based language model reasoning by stopping inference once generation has stabilized.
         </p>
         <div class="detail-tags">NeurIPS OPT 2025 · LLMs · Efficient inference</div>
       </article>
@@ -305,7 +305,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2025</span>
         </div>
         <p>
-          Creates diverse synthetic training data to improve downstream vision models.
+          Builds a generative pipeline to create diverse synthetic training data for stronger downstream vision models.
         </p>
         <div class="detail-tags">BMVC 2025 · Generative AI · Data synthesis</div>
       </article>
@@ -316,7 +316,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2024</span>
         </div>
         <p>
-          Uses eye gaze as an interaction signal to guide image and video generation.
+          Turns gaze into a natural control signal for interactive image and video generation.
         </p>
         <div class="detail-tags">Generative AI · Gaze estimation · Interaction</div>
       </article>
@@ -334,7 +334,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2022</span>
         </div>
         <p>
-          Detects unusual events in long videos through weakly and self-supervised video representation learning.
+          Detects abnormal events in videos with weaker supervision, reducing the need for heavy manual annotation.
         </p>
         <div class="detail-tags">ECCV 2022 · Video anomaly detection · Weakly/self-supervised learning</div>
       </article>
@@ -345,7 +345,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2021</span>
         </div>
         <p>
-          Detects new object categories from only one example.
+          Recognizes new object categories from only one example, making detection more flexible.
         </p>
         <div class="detail-tags">CVPR 2021 · Object detection · One-shot learning</div>
       </article>
@@ -356,7 +356,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2020–2023</span>
         </div>
         <p>
-          One-shot temporal action detection with zoom-in attention.
+          Finds actions in long videos from only one example, using zoom-in attention to refine coarse-to-fine action locations.
         </p>
         <div class="detail-tags">ICIP 2020 · WACV 2022 · ICASSP 2023 · Zoom-in attention</div>
       </article>
