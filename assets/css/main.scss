@@ -58,8 +58,8 @@ search: false
 
 .tree-branches {
   display: grid;
-  grid-template-columns: repeat(2, minmax(260px, 1fr));
-  gap: 2em 1.5em;
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  gap: 1.4em;
   position: relative;
   padding-top: 2em;
 }
@@ -68,8 +68,8 @@ search: false
   content: "";
   position: absolute;
   top: 0;
-  left: 25%;
-  right: 25%;
+  left: 12.5%;
+  right: 12.5%;
   height: 2px;
   background: #d8d8d8;
 }
@@ -186,17 +186,30 @@ search: false
   color: #5d5d5d;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+  .tree-branches {
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+  }
+
+  .tree-branches::before {
+    left: 25%;
+    right: 25%;
+  }
+}
+
+@media (max-width: 720px) {
   .tree-branches {
     grid-template-columns: 1fr;
   }
 
-  .tree-branches::before {
+  .tree-root::after,
+  .tree-branches::before,
+  .tree-branch::before {
     display: none;
   }
 
-  .tree-branch::before {
-    left: 24px;
+  .branch-node {
+    min-height: auto;
   }
 }
 
