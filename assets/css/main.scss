@@ -29,8 +29,11 @@ search: false
 /* Research roadmap tree */
 
 .roadmap-tree {
-  margin: 2.5em 0 3em;
   position: relative;
+  width: min(1500px, calc(100vw - 72px));
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 2.4em 0 3.2em;
 }
 
 .roadmap-tree a.tree-node,
@@ -53,13 +56,13 @@ search: false
   left: 50%;
   width: 2px;
   height: 3em;
-  background: #d8d8d8;
+  background: #efc7c7;
 }
 
 .tree-branches {
   display: grid;
-  grid-template-columns: repeat(4, minmax(180px, 1fr));
-  gap: 1.4em;
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+  gap: 1.35em;
   position: relative;
   padding-top: 2em;
 }
@@ -71,7 +74,7 @@ search: false
   left: 12.5%;
   right: 12.5%;
   height: 2px;
-  background: #d8d8d8;
+  background: #efc7c7;
 }
 
 .tree-branch {
@@ -85,7 +88,7 @@ search: false
   left: 50%;
   width: 2px;
   height: 2em;
-  background: #d8d8d8;
+  background: var(--branch-border);
 }
 
 .tree-node {
@@ -99,20 +102,24 @@ search: false
 }
 
 .root-node {
-  max-width: 520px;
+  max-width: 620px;
   text-align: center;
-  border-color: #c9dce6;
-  background: #fbfdfe;
+  border-color: #efc7c7;
+  background: linear-gradient(180deg, #fffafa 0%, #fff3f3 100%);
+}
+
+.root-node .node-title {
+  color: #a85b5b;
 }
 
 .branch-node {
-  min-height: 150px;
+  min-height: 155px;
 }
 
 .tree-node:hover,
 .project-node:hover {
   transform: translateY(-3px);
-  border-color: #9cc7d5;
+  border-color: var(--branch-color);
   box-shadow: 0 7px 20px rgba(0, 0, 0, 0.08);
 }
 
@@ -124,38 +131,40 @@ search: false
 
 .node-desc {
   font-size: 0.88em;
-  line-height: 1.45;
+  line-height: 1.4;
   color: #555;
 }
 
 .node-tags {
   margin-top: 0.75em;
-  font-size: 0.75em;
+  font-size: 0.74em;
+  line-height: 1.35;
   color: #777;
 }
 
 .project-list {
   position: relative;
-  margin-top: 1.4em;
-  padding-left: 1em;
+  margin-top: 1.35em;
+  padding-left: 0.95em;
 }
 
 .project-list::before {
   content: "";
   position: absolute;
-  top: -1.4em;
-  left: 0.45em;
+  top: -1.35em;
+  left: 0.42em;
   width: 2px;
-  height: calc(100% + 0.4em);
-  background: #d8d8d8;
+  height: calc(100% + 0.35em);
+  background: var(--branch-border);
 }
 
 .project-node {
   display: block;
   position: relative;
-  margin: 0 0 0.85em 0.6em;
-  padding: 0.75em 0.85em;
+  margin: 0 0 0.8em 0.55em;
+  padding: 0.72em 0.82em;
   border: 1px solid #e6e6e6;
+  border-left: 4px solid var(--branch-border);
   border-radius: 12px;
   background: #fff;
   box-shadow: 0 1px 7px rgba(0, 0, 0, 0.035);
@@ -166,29 +175,104 @@ search: false
   content: "";
   position: absolute;
   top: 1.25em;
-  left: -1.15em;
-  width: 1.15em;
+  left: -1.1em;
+  width: 1.1em;
   height: 2px;
-  background: #d8d8d8;
+  background: var(--branch-border);
+}
+
+.project-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.6em;
+  margin-bottom: 0.28em;
 }
 
 .project-title {
   display: block;
   font-weight: 700;
-  font-size: 0.88em;
-  margin-bottom: 0.25em;
+  font-size: 0.87em;
+  line-height: 1.25;
+  color: var(--branch-color);
+}
+
+.project-year {
+  display: inline-block;
+  padding: 0.08em 0.48em;
+  border: 1px solid var(--branch-border);
+  border-radius: 999px;
+  font-size: 0.68em;
+  line-height: 1.35;
+  color: var(--branch-color);
+  white-space: nowrap;
+  background: var(--branch-bg);
 }
 
 .project-desc {
   display: block;
-  font-size: 0.78em;
-  line-height: 1.4;
-  color: #5d5d5d;
+  font-size: 0.76em;
+  line-height: 1.35;
+  color: #555;
 }
 
-@media (max-width: 1200px) {
+.project-meta {
+  display: block;
+  margin-top: 0.45em;
+  font-size: 0.68em;
+  line-height: 1.35;
+  color: #7a7a7a;
+}
+
+/* Category colors */
+
+.branch-adaptation {
+  --branch-color: #4a90a4;
+  --branch-bg: #f3fafc;
+  --branch-border: #b9dce6;
+}
+
+.branch-compression {
+  --branch-color: #4f8f65;
+  --branch-bg: #f4fbf6;
+  --branch-border: #bfe0c8;
+}
+
+.branch-generative {
+  --branch-color: #8a6fb0;
+  --branch-bg: #faf7ff;
+  --branch-border: #d6c7ee;
+}
+
+.branch-vision {
+  --branch-color: #b1783f;
+  --branch-bg: #fff8f1;
+  --branch-border: #e8cda9;
+}
+
+.tree-branch .branch-node {
+  border-color: var(--branch-border);
+  background: var(--branch-bg);
+}
+
+.tree-branch .branch-node .node-title {
+  color: var(--branch-color);
+}
+
+.tree-branch .node-tags {
+  color: var(--branch-color);
+}
+
+/* Responsive layout */
+
+@media (max-width: 1250px) {
+  .roadmap-tree {
+    width: min(1180px, calc(100vw - 56px));
+  }
+
   .tree-branches {
     grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 2em 1.5em;
   }
 
   .tree-branches::before {
@@ -198,23 +282,20 @@ search: false
 }
 
 @media (max-width: 720px) {
+  .roadmap-tree {
+    width: 100%;
+    left: auto;
+    transform: none;
+  }
+
   .tree-branches {
     grid-template-columns: 1fr;
+    padding-top: 0;
   }
 
   .tree-root::after,
   .tree-branches::before,
   .tree-branch::before {
-    display: none;
-  }
-
-  .branch-node {
-    min-height: auto;
-  }
-}
-
-@media (max-width: 720px) {
-  .tree-root::after {
     display: none;
   }
 
