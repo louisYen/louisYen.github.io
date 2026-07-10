@@ -5,14 +5,12 @@ classes: wide
 permalink: /
 ---
 
-## About Me
-
 <div class="about-section">
 
   <img class="about-photo-float" src="/assets/images/profile.jpg" alt="He-Yen (Louis) Hsieh">
 
   <p>
-    Hi, I’m <strong>He-Yen (Louis) Hsieh</strong>, a Ph.D. candidate in Computer Science at Harvard University, advised by
+    Hi, I’m He-Yen (Louis) Hsieh, a Ph.D. candidate in Computer Science at Harvard University, advised by
     <a href="https://www.eecs.harvard.edu/htk/">Prof. H. T. Kung</a>.
   </p>
 
