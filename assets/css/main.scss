@@ -303,3 +303,88 @@ search: false
     min-height: auto;
   }
 }
+
+/* Roadmap detail cards */
+
+.roadmap-details {
+  margin-top: 2.5em;
+}
+
+.detail-section {
+  margin: 2.6em 0;
+  padding: 1.2em 1.3em 1.35em;
+  border-left: 5px solid var(--branch-border);
+  border-radius: 16px;
+  background: var(--branch-bg);
+}
+
+.detail-section h2 {
+  margin-top: 0;
+  color: var(--branch-color);
+  font-size: 1.35em;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 1em;
+}
+
+.detail-card {
+  padding: 1em 1.05em;
+  border: 1px solid var(--branch-border);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.035);
+}
+
+.detail-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8em;
+  margin-bottom: 0.4em;
+}
+
+.detail-card h3 {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.3;
+  color: var(--branch-color);
+}
+
+.detail-card p {
+  margin: 0.45em 0 0;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #555;
+}
+
+.detail-year {
+  display: inline-block;
+  padding: 0.1em 0.55em;
+  border: 1px solid var(--branch-border);
+  border-radius: 999px;
+  font-size: 0.72em;
+  line-height: 1.35;
+  color: var(--branch-color);
+  background: var(--branch-bg);
+  white-space: nowrap;
+}
+
+.detail-tags {
+  margin-top: 0.65em;
+  font-size: 0.75em;
+  line-height: 1.4;
+  color: var(--branch-color);
+}
+
+@media (max-width: 720px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-section {
+    padding: 1em;
+  }
+}
