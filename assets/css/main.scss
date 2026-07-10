@@ -427,3 +427,9 @@ search: false
     padding: 1em;
   }
 }
+
+/* Sidebar Harvard icon color */
+
+.author__urls a[href*="seas.harvard.edu"] i {
+  color: #a51c30;
+}
