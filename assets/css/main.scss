@@ -28,7 +28,11 @@ search: false
 
 /* About section */
 
-.about-section {
+..about-section {
+  position: relative;
+  width: min(1100px, calc(100vw - 72px));
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 1em;
 }
 
@@ -55,6 +59,12 @@ search: false
 }
 
 @media (max-width: 720px) {
+  .about-section {
+    width: 100%;
+    left: auto;
+    transform: none;
+  }
+
   .about-photo-float {
     float: none;
     display: block;
@@ -63,7 +73,6 @@ search: false
     margin: 0.5em 0 1.2em 0;
   }
 }
-
 
 /* Research roadmap tree */
 
@@ -570,22 +579,22 @@ search: false
   }
 }
 
-/* Keep right-side TOC usable on wide publication pages */
-.layout--single.wide .page {
+/* Keep right-side TOC only on Publications page */
+.layout--single.publications-page .page {
   padding-right: 240px;
 }
 
-.layout--single.wide .sidebar__right {
+.layout--single.publications-page .sidebar__right {
   width: 220px;
   margin-right: 0;
 }
 
 @media (max-width: 1024px) {
-  .layout--single.wide .page {
+  .layout--single.publications-page .page {
     padding-right: 0;
   }
 
-  .layout--single.wide .sidebar__right {
+  .layout--single.publications-page .sidebar__right {
     width: auto;
   }
 }
