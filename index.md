@@ -16,50 +16,111 @@ I’m always happy to connect with people interested in efficient AI, model comp
 
 ## Research Roadmap
 
-<div class="roadmap">
+<div class="roadmap-tree">
 
-  <div class="roadmap-root">
-    <div class="roadmap-card root-card">
-      <div class="roadmap-title">Efficient AI</div>
-      <div class="roadmap-desc">
-        Making AI models smaller, faster, easier to adapt, and still accurate.
-      </div>
+  <div class="tree-root">
+    <div class="tree-node root-node">
+      <div class="node-title">Efficient AI</div>
+      <div class="node-desc">Smaller, faster, easier to adapt, and still accurate.</div>
     </div>
   </div>
 
-  <div class="roadmap-branches">
+  <div class="tree-level main-branches">
 
-    <a class="roadmap-card" href="#efficient-model-adaptation">
-      <div class="roadmap-title">Efficient Model Adaptation</div>
-      <div class="roadmap-desc">
-        Adapting compact models with only a few samples, without adding extra inference-time cost.
-      </div>
-      <div class="roadmap-tags">PEFT · SVD · Few-shot adaptation · Gaze</div>
-    </a>
+    <div class="tree-branch">
+      <a class="tree-node branch-node" href="#efficient-model-adaptation">
+        <div class="node-title">Efficient Model Adaptation</div>
+        <div class="node-desc">Adapting compact models with only a few samples and limited trainable parameters.</div>
+        <div class="node-tags">PEFT · SVD · Few-shot · Gaze</div>
+      </a>
 
-    <a class="roadmap-card" href="#model-compression">
-      <div class="roadmap-title">Model Compression</div>
-      <div class="roadmap-desc">
-        Shrinking models and reducing inference cost through quantization, distillation, and compact design.
-      </div>
-      <div class="roadmap-tags">PTQ · LLMs · Quantization · Distillation</div>
-    </a>
+      <div class="project-list">
+        <a class="project-node" href="#alfa-efficient-few-shot-model-adaptation">
+          <span class="project-title">Alfa</span>
+          <span class="project-desc">Achieves accurate few-shot adaptation by reusing useful low-rank patterns from pre-trained models.</span>
+        </a>
 
-    <a class="roadmap-card" href="#generative-ai">
-      <div class="roadmap-title">Generative AI</div>
-      <div class="roadmap-desc">
-        Building personalized and controllable generation systems with diffusion models, LLMs, and gaze interaction.
+        <a class="project-node" href="#dft-gaze-few-shot-gaze-personalization">
+          <span class="project-title">DFT Gaze</span>
+          <span class="project-desc">Combines distillation and fine-tuning into one solution for a tiny 281K-parameter personalized gaze model.</span>
+        </a>
       </div>
-      <div class="roadmap-tags">Diffusion · Personalization · Layout control · Gaze</div>
-    </a>
+    </div>
 
-    <a class="roadmap-card" href="#computer-vision">
-      <div class="roadmap-title">Computer Vision</div>
-      <div class="roadmap-desc">
-        Designing vision models for gaze estimation, anomaly detection, one-shot detection, and action understanding.
+    <div class="tree-branch">
+      <a class="tree-node branch-node" href="#model-compression">
+        <div class="node-title">Model Compression</div>
+        <div class="node-desc">Shrinking models and reducing inference cost through PTQ, distillation, and compact design.</div>
+        <div class="node-tags">PTQ · LLMs · Distillation · Efficient inference</div>
+      </a>
+
+      <div class="project-list">
+        <a class="project-node" href="#calibration-free-ptq-for-llms">
+          <span class="project-title">Calibration-free PTQ for LLMs</span>
+          <span class="project-desc">Makes low-bit LLM quantization practical without relying on calibration data.</span>
+        </a>
+
+        <a class="project-node" href="#dft-gaze-compact-vision-model-design">
+          <span class="project-title">DFT Gaze</span>
+          <span class="project-desc">Makes gaze estimation small enough for efficient deployment, without losing the ability to personalize.</span>
+        </a>
+
+        <a class="project-node" href="#edit-faster-diffusion-language-model-inference">
+          <span class="project-title">EDIT</span>
+          <span class="project-desc">Reduces diffusion language model inference cost by stopping generation once the model has stabilized.</span>
+        </a>
       </div>
-      <div class="roadmap-tags">CVPR · ECCV · ICIP · ICASSP</div>
-    </a>
+    </div>
+
+    <div class="tree-branch">
+      <a class="tree-node branch-node" href="#generative-ai">
+        <div class="node-title">Generative AI</div>
+        <div class="node-desc">Building personalized and controllable generation systems with diffusion models, LLMs, and gaze interaction.</div>
+        <div class="node-tags">Diffusion · Personalization · Layout · Gaze</div>
+      </a>
+
+      <div class="project-list">
+        <a class="project-node" href="#personalized-text-to-image-generation">
+          <span class="project-title">Personalized text-to-image generation</span>
+          <span class="project-desc">Explores 5-shot personalized generation from only a few user-provided examples.</span>
+        </a>
+
+        <a class="project-node" href="#gen4gen-generative-ai-for-training-data-synthesis">
+          <span class="project-title">Gen4Gen</span>
+          <span class="project-desc">Creates diverse synthetic training data to improve downstream vision models.</span>
+        </a>
+
+        <a class="project-node" href="#gazegen-gaze-guided-generation">
+          <span class="project-title">GazeGen</span>
+          <span class="project-desc">Turns eye gaze into an interaction signal for guiding image and video generation.</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="tree-branch">
+      <a class="tree-node branch-node" href="#computer-vision">
+        <div class="node-title">Computer Vision</div>
+        <div class="node-desc">Designing vision models for gaze estimation, anomaly detection, one-shot detection, and action understanding.</div>
+        <div class="node-tags">CVPR · ECCV · ICIP · ICASSP</div>
+      </a>
+
+      <div class="project-list">
+        <a class="project-node" href="#s3r-video-anomaly-detection">
+          <span class="project-title">S3R</span>
+          <span class="project-desc">Detects unusual events in long videos by learning stronger video representations.</span>
+        </a>
+
+        <a class="project-node" href="#adaptive-image-transformer-one-shot-object-detection">
+          <span class="project-title">Adaptive Image Transformer</span>
+          <span class="project-desc">Detects new object categories from only one example by matching proposals with attention.</span>
+        </a>
+
+        <a class="project-node" href="#temporal-action-detection">
+          <span class="project-title">Temporal action detection</span>
+          <span class="project-desc">Finds actions in long videos by refining coarse temporal proposals into accurate segments.</span>
+        </a>
+      </div>
+    </div>
 
   </div>
 </div>
@@ -68,36 +129,58 @@ I’m always happy to connect with people interested in efficient AI, model comp
 
 ## Efficient Model Adaptation
 
-- **Alfa — Efficient few-shot model adaptation**  
-  Achieves accurate adaptation with only a few samples by reusing useful low-rank patterns from pre-trained models.
+### Alfa — Efficient few-shot model adaptation
 
-- **DFT Gaze — Few-shot gaze personalization**  
-  Combines distillation and fine-tuning into a single solution to train a tiny 281K-parameter model for accurate personalized gaze estimation.
+Achieves accurate adaptation with only a few samples by reusing useful low-rank patterns from pre-trained models.
+
+### DFT Gaze — Few-shot gaze personalization
+
+Combines distillation and fine-tuning into a single solution to train a tiny 281K-parameter model for accurate personalized gaze estimation.
 
 ---
 
 ## Model Compression
 
-- **Calibration-free PTQ for LLMs**  
-  Improves low-bit LLM quantization without calibration data by using the structure already stored in model weights.
+### Calibration-free PTQ for LLMs
 
-- **DFT Gaze — Compact vision model design**  
-  Turns a much larger gaze model into a lightweight model that can run efficiently on edge devices.
+Makes low-bit LLM quantization practical without relying on calibration data.
 
-- **EDIT — Faster diffusion language model inference**  
-  Reduces diffusion language model inference cost by stopping generation once the model has already become stable.
+### DFT Gaze — Compact vision model design
+
+Turns a much larger gaze model into a lightweight model that can run efficiently on edge devices.
+
+### EDIT — Faster diffusion language model inference
+
+Reduces diffusion language model inference cost by stopping generation once the model has already become stable.
 
 ---
 
 ## Generative AI
 
-- **Personalized text-to-image generation**  
-  Explores few-shot personalized generation, where a model learns a new visual concept from only a few user-provided examples.
+### Personalized text-to-image generation
 
-- **Gen4Gen — Generative AI for training data synthesis**  
-  Creates diverse synthetic training data using generative models to improve downstream vision models.
+Explores 5-shot personalized generation, where a model learns a new visual concept from only a few user-provided examples.
 
-- **GazeGen — Gaze-guided generation**  
-  Uses eye gaze as an interaction signal to guide image and video generation.
+### Gen4Gen — Generative AI for training data synthesis
+
+Creates diverse synthetic training data to improve downstream vision models.
+
+### GazeGen — Gaze-guided generation
+
+Uses eye gaze as an interaction signal to guide image and video generation.
 
 ---
+
+## Computer Vision
+
+### S3R — Video anomaly detection
+
+Detects unusual events in long videos by learning stronger video representations without heavy manual supervision.
+
+### Adaptive Image Transformer — One-shot object detection
+
+Detects new object categories from only one example by matching visual proposals with attention.
+
+### Temporal action detection
+
+Finds actions in long videos by refining coarse temporal proposals into more accurate segments.
