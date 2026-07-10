@@ -126,6 +126,9 @@ author:
   bio              : "Ph.D. researcher in Computer Science at Harvard University. I build machine learning algorithms that make AI models smaller, faster, easier to adapt, and still accurate."
   location         : "Cambridge, MA"
   links:
+    - label: "Harvard SEAS"
+      icon: "fas fa-fw fa-shield"
+      url: "https://seas.harvard.edu/"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=0IT2ct8AAAAJ"
@@ -134,10 +137,7 @@ author:
       url: "https://github.com/louisYen"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/he-yen-hsieh/"
-        - label: "Harvard SEAS"
-      icon: "fas fa-fw fa-shield-alt"
-      url: "https://seas.harvard.edu/"
+      url: "https://www.linkedin.com/in/he-yen-hsieh/"      
 
 # Site Footer
 footer:
