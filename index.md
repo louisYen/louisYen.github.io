@@ -69,7 +69,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Few-shot cross-domain gaze adaptation by attending to pre-trained weights and learning new patterns.
           </span>
-          <span class="project-meta">AAAI'26 · Model adaptation · Gaze estimation</span>
+          <span class="project-meta">AR/VR · Edge AI · 5-shot adaptation · Model Compression</span>
         </a>
 
         <a class="project-node" href="#dft-gaze-few-shot-gaze-personalization">
@@ -80,7 +80,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             A tiny 281K-parameter gaze model for accurate real-time personalization.
           </span>
-          <span class="project-meta">ICIP'25 (Spotlight) · 5-shot · Model compression</span>
+          <span class="project-meta">AR/VR · Real-time eye tracking · Edge AI · Model Compression</span>
         </a>
 
       </div>
@@ -105,7 +105,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Low-bit LLM quantization without relying on calibration data.
           </span>
-          <span class="project-meta">LLMs · PTQ · Quantization</span>
+          <span class="project-meta">LLM deployment · Low-bit quantization · Memory-efficient inference</span>
         </a>
 
         <a class="project-node" href="#dft-gaze-compact-vision-model-design">
@@ -116,7 +116,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Compresses gaze estimation into a small model that can still personalize.
           </span>
-          <span class="project-meta">ICIP'25 (Spotlight) · Distillation · Edge AI</span>
+          <span class="project-meta">AR/VR · Real-time eye tracking · Edge AI · Model Compression</span>
         </a>
 
         <a class="project-node" href="#edit-faster-diffusion-language-model-inference">
@@ -127,7 +127,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Early termination for faster diffusion language model inference.
           </span>
-          <span class="project-meta">NeurIPS OPT'25 · LLMs · Efficient inference</span>
+          <span class="project-meta">Reasoning LLMs · Test-time compute · Efficient inference</span>
         </a>
 
       </div>
@@ -152,7 +152,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Few-shot personalized generation from only a few user-provided examples.
           </span>
-          <span class="project-meta">Personalization · Text-to-image · Diffusion models</span>
+          <span class="project-meta">Creative AI · Personalized generation · Few-shot generation</span>
         </a>
 
         <a class="project-node" href="#gen4gen-generative-ai-for-training-data-synthesis">
@@ -163,7 +163,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Synthetic data generation for improving downstream vision models.
           </span>
-          <span class="project-meta">BMVC'25 · Generative AI · Data synthesis</span>
+          <span class="project-meta">Synthetic data · Vision model training · Data generation</span>
         </a>
 
         <a class="project-node" href="#gazegen-gaze-guided-generation">
@@ -174,7 +174,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Gaze-guided image and video generation.
           </span>
-          <span class="project-meta">Generative AI · Gaze estimation · Interaction</span>
+          <span class="project-meta">Interactive AI · Gaze control · Multimodal generation</span>
         </a>
 
       </div>
@@ -199,7 +199,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Video anomaly detection with weakly and self-supervised learning.
           </span>
-          <span class="project-meta">ECCV'22 · Video anomaly detection</span>
+          <span class="project-meta">Video understanding · Safety AI · Weak supervision</span>
         </a>
 
         <a class="project-node" href="#adaptive-image-transformer-one-shot-object-detection">
@@ -210,7 +210,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             One-shot object detection for new categories.
           </span>
-          <span class="project-meta">CVPR'21 · Object detection · One-shot learning</span>
+          <span class="project-meta">Object detection · Data-efficient vision · One-shot learning</span>
         </a>
 
         <a class="project-node" href="#temporal-action-detection">
@@ -221,7 +221,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             One-shot temporal action detection with zoom-in attention.
           </span>
-          <span class="project-meta">ICASSP'23 · One-shot learning · Action detection · Zoom-in attention</span>
+          <span class="project-meta">Video understanding · Action localization · Zoom-in attention · One-shot learning</span>
         </a>
 
       </div>
