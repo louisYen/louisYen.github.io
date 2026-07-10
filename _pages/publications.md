@@ -158,6 +158,45 @@ For a complete and up-to-date list of my publications, please see my
   </div>
 </div>
 
+<div class="publication-card pub-generative">
+
+  <div class="publication-thumb">
+    <img src="/assets/images/publications/gazegen.png" alt="GazeGen paper thumbnail">
+  </div>
+
+  <div class="publication-content">
+
+    <div class="publication-venue">arXiv 2024</div>
+
+    <h3 class="publication-title">
+      GazeGen: Gaze-Driven User Interaction for Visual Content Generation
+    </h3>
+
+    <p class="publication-authors">
+      <strong>He-Yen Hsieh</strong>, Ziyun Li, Sai Qian Zhang, Wei-Te Mark Ting, Kao-Den Chang,
+      Barbara De Salvo, Chiao Liu, H. T. Kung
+    </p>
+
+    <p class="publication-desc">
+      GazeGen turns eye gaze into a natural control signal for image and video generation, enabling hands-free visual content manipulation and interaction.
+    </p>
+
+    <div class="publication-tags">
+      Interactive AI · Gaze control · Visual content generation · AR/VR · Human-computer interaction
+    </div>
+
+    <div class="publication-links">
+      <a href="https://arxiv.org/pdf/2411.04335" class="pub-link">
+        <i class="fas fa-file-pdf"></i> Paper
+      </a>
+      <a href="https://github.com/louisYen/GazeGen-demo" class="pub-link">
+        <i class="fab fa-github"></i> Demo
+      </a>
+    </div>
+
+  </div>
+</div>
+
 ---
 
 ## Notes
