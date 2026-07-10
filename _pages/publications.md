@@ -9,7 +9,7 @@ toc_label: "On this page"
 toc_icon: "list"
 ---
 
-## Selected Publications
+## Publications
 
 <div class="publication-list">
 
