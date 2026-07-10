@@ -165,9 +165,9 @@ My research centers on making AI practical under limited data, compute, and memo
       <a class="tree-node branch-node" href="#computer-vision">
         <div class="node-title">Computer Vision</div>
         <div class="node-desc">
-          From few-shot detection to gaze and video understanding.
+          Object detection, video anomaly detection, and action localization
         </div>
-        <div class="node-tags">Few-shot learning · Detection · Video understanding</div>
+        <div class="node-tags">One-shot learning · Detection · Video understanding</div>
       </a>
 
       <div class="project-list">
@@ -200,9 +200,9 @@ My research centers on making AI practical under limited data, compute, and memo
             <span class="project-year">2020–2023</span>
           </div>
           <span class="project-desc">
-            Action localization in long videos across multiple settings.
+            One-shot temporal action detection with zoom-in attention.
           </span>
-          <span class="project-meta">ICIP'20 · WACV'22 · ICASSP'23</span>
+          <span class="project-meta">ICASSP'23 · One-shot learning · Action detection · Zoom-in attention</span>
         </a>
 
       </div>
@@ -213,60 +213,155 @@ My research centers on making AI practical under limited data, compute, and memo
 
 ---
 
-## Efficient Model Adaptation
+<div class="roadmap-details">
 
-### Alfa — Efficient few-shot model adaptation
+  <section id="efficient-model-adaptation" class="detail-section branch-adaptation">
+    <h2>Efficient Model Adaptation</h2>
+    <div class="detail-grid">
 
-Few-shot cross-domain gaze adaptation by attending to already learned pre-trained weights and learning new task-specific patterns.
+      <article id="alfa-efficient-few-shot-model-adaptation" class="detail-card">
+        <div class="detail-head">
+          <h3>Alfa — Efficient few-shot model adaptation</h3>
+          <span class="detail-year">2026</span>
+        </div>
+        <p>
+          Few-shot cross-domain gaze adaptation by attending to already learned pre-trained weights and learning new task-specific patterns.
+        </p>
+        <div class="detail-tags">AAAI 2026 · Cross-domain adaptation · Model compression · Gaze estimation</div>
+      </article>
 
-### DFT Gaze — Few-shot gaze personalization
+      <article id="dft-gaze-few-shot-gaze-personalization" class="detail-card">
+        <div class="detail-head">
+          <h3>DFT Gaze — Few-shot gaze personalization</h3>
+          <span class="detail-year">2025</span>
+        </div>
+        <p>
+          Combines distillation and fine-tuning into one solution to train a tiny 281K-parameter model for accurate personalized gaze estimation.
+        </p>
+        <div class="detail-tags">ICIP Spotlight 2025 · 5-shot · Model compression · Gaze estimation</div>
+      </article>
 
-Combines distillation and fine-tuning into one solution to train a tiny 281K-parameter model for accurate personalized gaze estimation.
+    </div>
+  </section>
 
----
+  <section id="model-compression" class="detail-section branch-compression">
+    <h2>Model Compression</h2>
+    <div class="detail-grid">
 
-## Model Compression
+      <article id="calibration-free-ptq-for-llms" class="detail-card">
+        <div class="detail-head">
+          <h3>Calibration-free PTQ for LLMs</h3>
+          <span class="detail-year">Ongoing</span>
+        </div>
+        <p>
+          Low-bit LLM quantization without relying on calibration data.
+        </p>
+        <div class="detail-tags">LLMs · PTQ · Quantization</div>
+      </article>
 
-### Calibration-free PTQ for LLMs
+      <article id="dft-gaze-compact-vision-model-design" class="detail-card">
+        <div class="detail-head">
+          <h3>DFT Gaze — Compact vision model design</h3>
+          <span class="detail-year">2025</span>
+        </div>
+        <p>
+          Compresses gaze estimation into a small model that can run efficiently while keeping strong personalization ability.
+        </p>
+        <div class="detail-tags">ICIP Spotlight 2025 · Distillation · Edge AI · Gaze estimation</div>
+      </article>
 
-Low-bit LLM quantization without relying on calibration data.
+      <article id="edit-faster-diffusion-language-model-inference" class="detail-card">
+        <div class="detail-head">
+          <h3>EDIT — Faster diffusion language model inference</h3>
+          <span class="detail-year">2025</span>
+        </div>
+        <p>
+          Reduces diffusion language model inference cost by stopping generation once the model has stabilized.
+        </p>
+        <div class="detail-tags">NeurIPS OPT 2025 · LLMs · Efficient inference</div>
+      </article>
 
-### DFT Gaze — Compact vision model design
+    </div>
+  </section>
 
-Compresses gaze estimation into a small model that can run efficiently while keeping strong personalization ability.
+  <section id="generative-ai" class="detail-section branch-generative">
+    <h2>Generative AI</h2>
+    <div class="detail-grid">
 
-### EDIT — Faster diffusion language model inference
+      <article id="personalized-text-to-image-generation" class="detail-card">
+        <div class="detail-head">
+          <h3>Personalized text-to-image generation</h3>
+          <span class="detail-year">2023</span>
+        </div>
+        <p>
+          Few-shot personalized generation from only a few user-provided examples.
+        </p>
+        <div class="detail-tags">Personalization · Text-to-image · Diffusion models</div>
+      </article>
 
-Reduces diffusion language model inference cost by stopping generation once the model has stabilized.
+      <article id="gen4gen-generative-ai-for-training-data-synthesis" class="detail-card">
+        <div class="detail-head">
+          <h3>Gen4Gen — Generative AI for training data synthesis</h3>
+          <span class="detail-year">2025</span>
+        </div>
+        <p>
+          Creates diverse synthetic training data to improve downstream vision models.
+        </p>
+        <div class="detail-tags">BMVC 2025 · Generative AI · Data synthesis</div>
+      </article>
 
----
+      <article id="gazegen-gaze-guided-generation" class="detail-card">
+        <div class="detail-head">
+          <h3>GazeGen — Gaze-guided generation</h3>
+          <span class="detail-year">2024</span>
+        </div>
+        <p>
+          Uses eye gaze as an interaction signal to guide image and video generation.
+        </p>
+        <div class="detail-tags">Generative AI · Gaze estimation · Interaction</div>
+      </article>
 
-## Generative AI
+    </div>
+  </section>
 
-### Personalized text-to-image generation
+  <section id="computer-vision" class="detail-section branch-vision">
+    <h2>Computer Vision</h2>
+    <div class="detail-grid">
 
-Few-shot personalized generation from only a few user-provided examples.
+      <article id="s3r-video-anomaly-detection" class="detail-card">
+        <div class="detail-head">
+          <h3>S3R — Video anomaly detection</h3>
+          <span class="detail-year">2022</span>
+        </div>
+        <p>
+          Detects unusual events in long videos through weakly and self-supervised video representation learning.
+        </p>
+        <div class="detail-tags">ECCV 2022 · Video anomaly detection · Weakly/self-supervised learning</div>
+      </article>
 
-### Gen4Gen — Generative AI for training data synthesis
+      <article id="adaptive-image-transformer-one-shot-object-detection" class="detail-card">
+        <div class="detail-head">
+          <h3>Adaptive Image Transformer — One-shot object detection</h3>
+          <span class="detail-year">2021</span>
+        </div>
+        <p>
+          Detects new object categories from only one example.
+        </p>
+        <div class="detail-tags">CVPR 2021 · Object detection · One-shot learning</div>
+      </article>
 
-Creates diverse synthetic training data to improve downstream vision models.
+      <article id="temporal-action-detection" class="detail-card">
+        <div class="detail-head">
+          <h3>Temporal action detection</h3>
+          <span class="detail-year">2020–2023</span>
+        </div>
+        <p>
+          One-shot temporal action detection with zoom-in attention.
+        </p>
+        <div class="detail-tags">ICIP 2020 · WACV 2022 · ICASSP 2023 · Zoom-in attention</div>
+      </article>
 
-### GazeGen — Gaze-guided generation
+    </div>
+  </section>
 
-Uses eye gaze as an interaction signal to guide image and video generation.
-
----
-
-## Computer Vision
-
-### S3R — Video anomaly detection
-
-Detects unusual events in long videos through weakly and self-supervised video representation learning.
-
-### Adaptive Image Transformer — One-shot object detection
-
-Detects new object categories from only one example.
-
-### Temporal action detection
-
-Finds actions in long videos by refining coarse temporal proposals into accurate action segments.
+</div>
