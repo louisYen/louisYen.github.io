@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "Building efficient AI systems for vision and language models."
+title: "Efficient AI for vision and language models"
 permalink: /
 ---
 
