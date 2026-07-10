@@ -33,6 +33,12 @@ search: false
   position: relative;
 }
 
+.roadmap-tree a.tree-node,
+.roadmap-tree a.project-node {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
 .tree-root {
   display: flex;
   justify-content: center;
@@ -50,23 +56,20 @@ search: false
   background: #d8d8d8;
 }
 
-.tree-level {
-  position: relative;
-}
-
-.main-branches {
+.tree-branches {
   display: grid;
-  grid-template-columns: repeat(4, minmax(180px, 1fr));
-  gap: 1.2em;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 2em 1.5em;
+  position: relative;
   padding-top: 2em;
 }
 
-.main-branches::before {
+.tree-branches::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 12.5%;
-  right: 12.5%;
+  left: 25%;
+  right: 25%;
   height: 2px;
   background: #d8d8d8;
 }
@@ -83,12 +86,6 @@ search: false
   width: 2px;
   height: 2em;
   background: #d8d8d8;
-}
-
-.tree-node,
-.project-node {
-  text-decoration: none;
-  color: inherit;
 }
 
 .tree-node {
@@ -109,7 +106,7 @@ search: false
 }
 
 .branch-node {
-  min-height: 185px;
+  min-height: 150px;
 }
 
 .tree-node:hover,
@@ -189,35 +186,26 @@ search: false
   color: #5d5d5d;
 }
 
-@media (max-width: 1100px) {
-  .main-branches {
-    grid-template-columns: repeat(2, minmax(220px, 1fr));
-    row-gap: 2.5em;
+@media (max-width: 900px) {
+  .tree-branches {
+    grid-template-columns: 1fr;
   }
 
-  .main-branches::before {
-    left: 25%;
-    right: 25%;
+  .tree-branches::before {
+    display: none;
+  }
+
+  .tree-branch::before {
+    left: 24px;
   }
 }
 
 @media (max-width: 720px) {
-  .main-branches {
-    grid-template-columns: 1fr;
-    padding-top: 0;
-  }
-
-  .tree-root::after,
-  .main-branches::before,
-  .tree-branch::before {
+  .tree-root::after {
     display: none;
   }
 
   .branch-node {
     min-height: auto;
-  }
-
-  .project-list {
-    margin-bottom: 1.8em;
   }
 }
