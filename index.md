@@ -16,8 +16,6 @@ I’m always happy to connect with people interested in efficient AI, model comp
 
 ---
 
----
-
 ## Research Roadmap
 
 My research centers on making AI practical under limited data, compute, and memory. I started from computer vision problems such as detection, video understanding, and anomaly detection, then expanded into gaze estimation, generative AI, and efficient learning systems. More recently, my work focuses on efficient adaptation and compression for vision and language models.
