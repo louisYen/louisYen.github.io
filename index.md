@@ -1,11 +1,8 @@
 ---
 layout: single
 author_profile: true
-title: "Efficient AI for vision and language models"
 permalink: /
 ---
-
-## About Me
 
 Hi, I’m **He-Yen (Louis) Hsieh**, a Ph.D. researcher in Computer Science at Harvard University, advised by [Prof. H. T. Kung](https://www.eecs.harvard.edu/htk/).
 
