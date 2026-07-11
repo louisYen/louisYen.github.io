@@ -197,6 +197,84 @@ For a complete and up-to-date list of my publications, please see my
   </div>
 </div>
 
+<div class="publication-card pub-vision">
+
+  <div class="publication-thumb">
+    <img src="/assets/images/publications/s3r.png" alt="S3R paper thumbnail">
+  </div>
+
+  <div class="publication-content">
+
+    <div class="publication-venue">ECCV 2022</div>
+
+    <h3 class="publication-title">
+      Self-Supervised Sparse Representation for Video Anomaly Detection
+    </h3>
+
+    <p class="publication-authors">
+      Jhih-Ciang Wu*, <strong>He-Yen Hsieh*</strong>, Ding-Jie Chen, Chiou-Shann Fuh, Tyng-Luh Liu
+    </p>
+
+    <p class="publication-desc">
+      S3R detects abnormal events in long videos by learning self-supervised sparse representations, reducing the need for dense manual anomaly annotations.
+    </p>
+
+    <div class="publication-tags">
+      Video anomaly detection · Self-supervised learning · Weak supervision · Safety AI · Video understanding
+    </div>
+
+    <div class="publication-links">
+      <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136730727.pdf" class="pub-link">
+        <i class="fas fa-file-pdf"></i> Paper
+      </a>
+      <a href="https://github.com/louisYen/S3R" class="pub-link">
+        <i class="fab fa-github"></i> Code
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<div class="publication-card pub-vision">
+
+  <div class="publication-thumb">
+    <img src="/assets/images/publications/ait.png" alt="Adaptive Image Transformer paper thumbnail">
+  </div>
+
+  <div class="publication-content">
+
+    <div class="publication-venue">CVPR 2021</div>
+
+    <h3 class="publication-title">
+      Adaptive Image Transformer for One-Shot Object Detection
+    </h3>
+
+    <p class="publication-authors">
+      Ding-Jie Chen, <strong>He-Yen Hsieh</strong>, Tyng-Luh Liu
+    </p>
+
+    <p class="publication-desc">
+      Adaptive Image Transformer detects new object categories from only one query example by adapting proposal features to better match the given object.
+    </p>
+
+    <div class="publication-tags">
+      Object detection · One-shot learning · Data-efficient vision · Visual detection · Attention
+    </div>
+
+    <div class="publication-links">
+      <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Adaptive_Image_Transformer_for_One-Shot_Object_Detection_CVPR_2021_paper.pdf" class="pub-link">
+        <i class="fas fa-file-pdf"></i> Paper
+      </a>
+      <a href="https://github.com/CAIVIAC/AIT" class="pub-link">
+        <i class="fab fa-github"></i> Official Code
+      </a>
+      <a href="https://github.com/louisYen/Adaptive-Image-Transformer" class="pub-link">
+        <i class="fab fa-github"></i> My Fork
+      </a>
+    </div>
+
+  </div>
+</div>
 ---
 
 ## Notes
