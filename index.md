@@ -158,7 +158,7 @@ My research centers on making AI practical under limited data, compute, and memo
         <div class="node-desc">
           Building personalized and controllable generative systems.
         </div>
-        <div class="node-tags">Creative AI · Synthetic data · Personalized generation · Gaze-guided interactive AI</div>
+        <div class="node-tags">Creative AI · Synthetic data · Personalized generation · Gaze-guided interactive AI · Few-shot learning</div>
       </a>
 
       <div class="project-list">
@@ -182,7 +182,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Synthetic data generation for improving downstream vision models.
           </span>
-          <span class="project-meta">Synthetic data · Vision model training · Data generation</span>
+          <span class="project-meta">Synthetic data · Vision model training · Data generation · Few-shot generation</span>
         </a>
 
         <a class="project-node" href="#gazegen-gaze-guided-generation">
@@ -193,7 +193,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="project-desc">
             Gaze-guided image and video generation.
           </span>
-          <span class="project-meta">Interactive AI · Gaze control · Multimodal generation</span>
+          <span class="project-meta">Interactive AI · Gaze control · Multimodal generation · Few-shot learning</span>
         </a>
 
       </div>
@@ -361,7 +361,7 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Few-shot personalized generation from only a few user-provided examples.
         </p>
-        <div class="detail-tags">Personalization · Text-to-image · Diffusion models</div>
+        <div class="detail-tags">Personalization · Text-to-image · Diffusion models · Few-shot generation</div>
       </article>
 
       <article id="gen4gen-generative-ai-for-training-data-synthesis" class="detail-card">
@@ -372,7 +372,7 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Builds a generative pipeline to create diverse synthetic training data for stronger downstream vision models.
         </p>
-        <div class="detail-tags">BMVC'25 · Generative AI · Data synthesis</div>
+        <div class="detail-tags">BMVC'25 · Generative AI · Data synthesis · Few-shot generation</div>
 
         <div class="detail-links">
           <a href="https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_28/paper.pdf" class="detail-link">
@@ -392,7 +392,7 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Turns gaze into a natural control signal for interactive image and video generation.
         </p>
-        <div class="detail-tags">Generative AI · Gaze estimation · Interaction</div>
+        <div class="detail-tags">Generative AI · Gaze estimation · Interaction · Few-shot learning</div>
 
         <div class="detail-links">
           <a href="https://arxiv.org/pdf/2411.04335" class="detail-link">
