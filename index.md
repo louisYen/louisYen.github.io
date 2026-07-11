@@ -266,12 +266,15 @@ My research centers on making AI practical under limited data, compute, and memo
           Adapts gaze models to new users and domains with only 5 samples by reusing pre-trained knowledge, making the model 5× smaller while keeping or improving accuracy. The same low-rank adaptation idea also extends to diffusion-based language models for reasoning.
         </p>
         <div class="detail-use">
-          <strong>Use when:</strong>
-          <ul>
-            <li>A pre-trained model needs compact adaptation.</li>
-            <li>Only a few target samples are available.</li>
-            <li>More trainable capacity is needed without increasing inference-time model size.</li>
-          </ul>
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+          
+            <div class="detail-use-chips">
+              <span>A pre-trained model needs compact adaptation</span>
+              <span>Only a few target samples are available</span>
+              <span>More trainable capacity is needed without increasing inference-time model size</span>
+          </div>
         </div>
         <div class="detail-tags">AAAI'26 · Model adaptation · Gaze estimation</div>
 
@@ -292,12 +295,15 @@ My research centers on making AI practical under limited data, compute, and memo
         </p>
 
         <div class="detail-use">
-          <strong>Use when:</strong>
-          <ul>
-            <li>A large vision model is too slow for real-time deployment.</li>
-            <li>Personalization is needed with only a few user samples.</li>
-            <li>A compact model must stay accurate under edge-device constraints.</li>
-          </ul>
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+          
+            <div class="detail-use-chips">
+              <span>A large vision model is too slow for real-time deployment</span>
+              <span>Personalization is needed with only a few user samples</span>
+              <span>A compact model must stay accurate under edge-device constraints</span>
+          </div>
         </div>
         <div class="detail-tags">ICIP'25 (Spotlight) · 5-shot · Model compression</div>
 
