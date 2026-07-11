@@ -10,6 +10,10 @@ For a complete and up-to-date list of my publications, please see my
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=0IT2ct8AAAAJ&view_op=list_works&sortby=pubdate).
 
 
+<div class="publication-section pub-adaptation">
+  <h2>Efficient Model Adaptation</h2>
+</div>
+
 <div class="publication-card pub-adaptation">
 
   <div class="publication-thumb">
@@ -81,6 +85,11 @@ For a complete and up-to-date list of my publications, please see my
   </div>
 </div>
 
+
+<div class="publication-section pub-compression">
+  <h2>Model Compression</h2>
+</div>
+
 <div class="publication-card pub-compression">
 
   <div class="publication-thumb">
@@ -119,6 +128,11 @@ For a complete and up-to-date list of my publications, please see my
   </div>
 </div>
 
+
+<div class="publication-section pub-generative">
+  <h2>Generative AI</h2>
+</div>
+    
 <div class="publication-card pub-generative">
 
   <div class="publication-thumb">
@@ -126,6 +140,7 @@ For a complete and up-to-date list of my publications, please see my
   </div>
 
   <div class="publication-content">
+   
 
     <div class="publication-venue">BMVC 2025</div>
 
@@ -195,6 +210,10 @@ For a complete and up-to-date list of my publications, please see my
     </div>
 
   </div>
+</div>
+
+<div class="publication-section pub-vision">
+  <h2>Computer Vision</h2>
 </div>
 
 <div class="publication-card pub-vision">
