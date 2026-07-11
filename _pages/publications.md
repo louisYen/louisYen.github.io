@@ -29,7 +29,7 @@ For a complete and up-to-date list of my publications, please see my
     </p>
 
     <p class="publication-desc">
-      Alfa adapts gaze models to new users and domains with only a few unlabeled samples by reweighting useful spatial patterns already learned in pre-trained filters.
+      Alfa adapts gaze models to new users and domains with only a few unlabeled samples by reweighting useful spatial patterns already learned in pre-trained filters. The same low-rank adaptation idea also extends to diffusion-based language models for reasoning tasks.
     </p>
 
     <div class="publication-tags">
