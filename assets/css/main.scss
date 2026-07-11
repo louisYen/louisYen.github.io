@@ -717,3 +717,686 @@ search: false
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+
+
+/* Interactive: How Can AI Work with Less? */
+.less-ai-section {
+  position: relative;
+  width: min(1050px, calc(100vw - 420px));
+  max-width: none;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 4em 0 2.5em;
+}
+
+.less-ai-header {
+  max-width: 760px;
+  margin: 0 auto 1.6em;
+  text-align: center;
+}
+
+.less-ai-eyebrow {
+  display: inline-block;
+  margin-bottom: 0.4em;
+  color: #a85656;
+  font-size: 0.76em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.less-ai-header h2 {
+  margin: 0 0 0.35em;
+  color: #222;
+  font-size: 1.85em;
+  line-height: 1.2;
+}
+
+.less-ai-header p {
+  max-width: 680px;
+  margin: 0 auto;
+  color: #555;
+  font-size: 0.94em;
+  line-height: 1.55;
+}
+
+
+/* Existing AI model */
+
+.less-ai-model-card {
+  width: min(680px, 100%);
+  margin: 0 auto 1.8em;
+  padding: 1.2em 1.4em 1em;
+  border: 1px solid #efbebe;
+  border-radius: 18px;
+  background: #fff8f8;
+  box-shadow: 0 5px 20px rgba(80, 50, 50, 0.06);
+}
+
+.less-ai-model-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75em;
+  text-align: left;
+}
+
+.less-ai-model-icon {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  background: #fff;
+  color: #a85656;
+  font-size: 1.15em;
+  box-shadow: 0 2px 9px rgba(168, 86, 86, 0.12);
+}
+
+.less-ai-model-heading strong {
+  display: block;
+  color: #944b4b;
+  font-size: 1.12em;
+}
+
+.less-ai-model-heading span {
+  display: block;
+  margin-top: 0.1em;
+  color: #777;
+  font-size: 0.76em;
+}
+
+
+/* Generic neural network */
+
+.less-ai-network {
+  display: flex;
+  min-height: 105px;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1em;
+  margin: 1em 0 0.8em;
+}
+
+.less-ai-layer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.38em;
+}
+
+.less-ai-layer span {
+  display: block;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #c76d6d;
+  border-radius: 50%;
+  background: #fff;
+  animation: lessAiNodePulse 2.4s ease-in-out infinite;
+}
+
+.less-ai-layer:nth-of-type(3) span {
+  animation-delay: 0.3s;
+}
+
+.less-ai-layer:nth-of-type(5) span {
+  animation-delay: 0.6s;
+}
+
+.less-ai-network-lines {
+  width: 105px;
+  height: 70px;
+  opacity: 0.42;
+  background:
+    linear-gradient(
+      27deg,
+      transparent 47%,
+      #c76d6d 48%,
+      #c76d6d 49%,
+      transparent 50%
+    ),
+    linear-gradient(
+      -27deg,
+      transparent 47%,
+      #c76d6d 48%,
+      #c76d6d 49%,
+      transparent 50%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 49%,
+      #c76d6d 50%,
+      transparent 51%
+    );
+  background-size: 100% 23px;
+}
+
+@keyframes lessAiNodePulse {
+  0%,
+  100% {
+    transform: scale(1);
+    background: #fff;
+  }
+
+  50% {
+    transform: scale(1.13);
+    background: #f7dede;
+  }
+}
+
+.less-ai-model-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55em;
+}
+
+.less-ai-model-types span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.28em 0.65em;
+  border: 1px solid #efd0d0;
+  border-radius: 999px;
+  background: #fff;
+  color: #6c5b5b;
+  font-size: 0.76em;
+}
+
+
+/* Question and tabs */
+
+.less-ai-question {
+  margin-bottom: 0.9em;
+  text-align: center;
+  color: #333;
+  font-size: 1.02em;
+  font-weight: 700;
+}
+
+.less-ai-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8em;
+  margin-bottom: 1em;
+}
+
+.less-ai-tab {
+  --less-color: #666;
+  --less-bg: #fafafa;
+  --less-border: #ddd;
+
+  display: flex;
+  min-height: 86px;
+  align-items: center;
+  gap: 0.7em;
+  padding: 0.85em;
+  border: 1px solid var(--less-border);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--less-color);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.less-ai-tab:hover {
+  transform: translateY(-2px);
+  background: var(--less-bg);
+  border-color: var(--less-color);
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.06);
+}
+
+.less-ai-tab.active {
+  background: var(--less-bg);
+  border-color: var(--less-color);
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.less-ai-tab > i {
+  display: inline-flex;
+  width: 35px;
+  height: 35px;
+  flex: 0 0 35px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--less-bg);
+  color: var(--less-color);
+}
+
+.less-ai-tab strong {
+  display: block;
+  color: var(--less-color);
+  font-size: 0.9em;
+}
+
+.less-ai-tab small {
+  display: block;
+  margin-top: 0.22em;
+  color: #777;
+  font-size: 0.68em;
+  line-height: 1.3;
+}
+
+
+/* Scoped colors */
+
+.less-ai-section .theme-data {
+  --less-color: #4a90a4;
+  --less-bg: #f3fafc;
+  --less-border: #b9dce6;
+}
+
+.less-ai-section .theme-parameters {
+  --less-color: #4f8f65;
+  --less-bg: #f4fbf6;
+  --less-border: #bfe0c8;
+}
+
+.less-ai-section .theme-compute {
+  --less-color: #8a6fb0;
+  --less-bg: #faf7ff;
+  --less-border: #d6c7ee;
+}
+
+.less-ai-section .theme-interaction {
+  --less-color: #b1783f;
+  --less-bg: #fff8f1;
+  --less-border: #e8cda9;
+}
+
+
+/* Workspace */
+
+.less-ai-workspace {
+  display: grid;
+  grid-template-columns: minmax(210px, 0.72fr) minmax(0, 1.75fr);
+  min-height: 430px;
+  overflow: hidden;
+  border: 1px solid var(--less-border);
+  border-radius: 20px;
+  background: var(--less-bg);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.045);
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.less-ai-project-column {
+  padding: 1.15em;
+  border-right: 1px solid var(--less-border);
+  background: rgba(255, 255, 255, 0.38);
+}
+
+.less-ai-column-label {
+  margin-bottom: 0.65em;
+  color: var(--less-color);
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.less-ai-project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.48em;
+}
+
+.less-ai-project-button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.72em 0.75em;
+  border: 1px solid transparent;
+  border-radius: 11px;
+  background: transparent;
+  color: #555;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.less-ai-project-button:hover {
+  transform: translateX(3px);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.less-ai-project-button.active {
+  border-color: var(--less-border);
+  background: #fff;
+  color: var(--less-color);
+  box-shadow: 0 3px 11px rgba(0, 0, 0, 0.045);
+}
+
+.less-ai-project-button i {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  background: var(--less-bg);
+  color: var(--less-color);
+  font-size: 0.78em;
+}
+
+.less-ai-project-button span {
+  font-size: 0.8em;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+
+/* Project demo */
+
+.less-ai-demo-column {
+  padding: 1.35em 1.5em 1.5em;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.less-ai-demo-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.less-ai-demo-category {
+  display: inline-flex;
+  padding: 0.24em 0.65em;
+  border: 1px solid var(--less-border);
+  border-radius: 999px;
+  background: var(--less-bg);
+  color: var(--less-color);
+  font-size: 0.72em;
+  font-weight: 700;
+}
+
+.less-ai-animation-label {
+  color: #888;
+  font-size: 0.7em;
+}
+
+.less-ai-animation-label i {
+  margin-right: 0.25em;
+  color: var(--less-color);
+}
+
+.less-ai-demo-column h3 {
+  margin: 0.7em 0 0.25em;
+  color: var(--less-color);
+  font-size: 1.35em;
+  line-height: 1.25;
+}
+
+.less-ai-demo-description {
+  max-width: 720px;
+  margin: 0;
+  color: #555;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+
+/* Animated project flow */
+
+.less-ai-flow {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr) auto
+    minmax(0, 1fr) auto
+    minmax(0, 1fr) auto
+    minmax(0, 1fr);
+  align-items: stretch;
+  gap: 0.55em;
+  margin-top: 1.3em;
+}
+
+.less-ai-flow-step {
+  position: relative;
+  min-height: 120px;
+  padding: 0.95em 0.75em 0.75em;
+  border: 1px solid var(--less-border);
+  border-radius: 13px;
+  background: #fff;
+}
+
+.less-ai-step-number {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--less-color);
+  color: #fff;
+  font-size: 0.68em;
+  font-weight: 700;
+}
+
+.less-ai-flow-step small {
+  display: block;
+  margin: 0.25em 0 0.45em;
+  color: var(--less-color);
+  font-size: 0.67em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.less-ai-flow-step strong {
+  display: block;
+  color: #444;
+  font-size: 0.8em;
+  line-height: 1.42;
+}
+
+.less-ai-flow-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--less-color);
+  opacity: 0.65;
+}
+
+
+/* Replay animation */
+
+.less-ai-flow.replay .less-ai-flow-step {
+  animation: lessAiRevealStep 0.42s ease both;
+}
+
+.less-ai-flow.replay .less-ai-flow-arrow {
+  animation: lessAiRevealArrow 0.3s ease both;
+}
+
+.less-ai-flow.replay .less-ai-flow-step:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.less-ai-flow.replay .less-ai-flow-arrow:nth-child(2) {
+  animation-delay: 0.18s;
+}
+
+.less-ai-flow.replay .less-ai-flow-step:nth-child(3) {
+  animation-delay: 0.28s;
+}
+
+.less-ai-flow.replay .less-ai-flow-arrow:nth-child(4) {
+  animation-delay: 0.46s;
+}
+
+.less-ai-flow.replay .less-ai-flow-step:nth-child(5) {
+  animation-delay: 0.56s;
+}
+
+.less-ai-flow.replay .less-ai-flow-arrow:nth-child(6) {
+  animation-delay: 0.74s;
+}
+
+.less-ai-flow.replay .less-ai-flow-step:nth-child(7) {
+  animation-delay: 0.84s;
+}
+
+@keyframes lessAiRevealStep {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes lessAiRevealArrow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.65;
+  }
+}
+
+
+/* Why it matters */
+
+.less-ai-impact {
+  margin-top: 1em;
+  padding: 0.85em 0.95em;
+  border-left: 4px solid var(--less-color);
+  border-radius: 0 11px 11px 0;
+  background: var(--less-bg);
+}
+
+.less-ai-impact > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  color: var(--less-color);
+  font-size: 0.75em;
+  font-weight: 700;
+}
+
+.less-ai-impact p {
+  margin: 0.35em 0 0;
+  color: #555;
+  font-size: 0.82em;
+  line-height: 1.48;
+}
+
+
+/* Medium screens */
+
+@media (max-width: 1250px) {
+  .less-ai-section {
+    width: min(900px, calc(100vw - 420px));
+  }
+
+  .less-ai-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .less-ai-workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .less-ai-project-column {
+    border-right: 0;
+    border-bottom: 1px solid var(--less-border);
+  }
+
+  .less-ai-project-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  .less-ai-section {
+    width: 100%;
+    left: auto;
+    transform: none;
+    margin: 3em 0 2em;
+  }
+
+  .less-ai-header h2 {
+    font-size: 1.55em;
+  }
+
+  .less-ai-tabs {
+    grid-template-columns: 1fr;
+  }
+
+  .less-ai-tab {
+    min-height: 70px;
+  }
+
+  .less-ai-network-lines {
+    width: 58px;
+  }
+
+  .less-ai-project-list {
+    grid-template-columns: 1fr;
+  }
+
+  .less-ai-demo-column {
+    padding: 1.2em 1em;
+  }
+
+  .less-ai-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .less-ai-flow-arrow {
+    min-height: 24px;
+  }
+
+  .less-ai-flow-arrow i {
+    transform: rotate(90deg);
+  }
+
+  .less-ai-flow-step {
+    min-height: auto;
+  }
+}
+
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .less-ai-layer span,
+  .less-ai-flow.replay .less-ai-flow-step,
+  .less-ai-flow.replay .less-ai-flow-arrow {
+    animation: none;
+  }
+
+  .less-ai-tab,
+  .less-ai-project-button {
+    transition: none;
+  }
+}
