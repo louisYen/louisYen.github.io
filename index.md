@@ -609,54 +609,21 @@ My research centers on making AI practical under limited data, compute, and memo
       Choose a constraint and see how my projects help an existing AI model work with less.
     </p>
   </header>
-
-  <!-- Existing AI model -->
+  
   <div class="less-ai-model-card">
-
+  
     <div class="less-ai-model-heading">
-      <div>
-        <strong>Your Existing AI Model</strong>
-        <span>Vision · Language · Generative AI</span>
-      </div>
+      <strong>Your Existing AI Model</strong>
+      <span>Vision · Language · Generative AI</span>
     </div>
-
-    <div class="less-ai-network" aria-hidden="true">
-
-      <div class="less-ai-layer">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
-      <div class="less-ai-network-lines"></div>
-
-      <div class="less-ai-layer">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
-      <div class="less-ai-network-lines"></div>
-
-      <div class="less-ai-layer">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
-    </div>
-
+  
     <div class="less-ai-model-types">
       <span><i class="fas fa-eye"></i> Vision</span>
       <span><i class="fas fa-comment-alt"></i> Language</span>
       <span><i class="fas fa-image"></i> Generation</span>
       <span><i class="fas fa-video"></i> Video</span>
     </div>
-
+  
   </div>
 
   <div class="less-ai-question">
@@ -760,8 +727,8 @@ My research centers on making AI practical under limited data, compute, and memo
         </span>
 
         <span class="less-ai-animation-label">
-          <i class="fas fa-play"></i>
-          Project flow
+          <i class="fas fa-project-diagram"></i>
+          How it works
         </span>
 
       </div>
