@@ -270,10 +270,10 @@ My research centers on making AI practical under limited data, compute, and memo
             <i class="fas fa-lightbulb"></i> Use when
           </div>
           
-            <div class="detail-use-chips">
-              <span>A pre-trained model needs compact adaptation</span>
-              <span>Only a few target samples are available</span>
-              <span>More trainable capacity is needed without increasing inference-time model size</span>
+            <div class="detail-use-list">
+              <li>A pre-trained model needs compact adaptation.</li>
+              <li>Only a few target samples are available.</li>
+              <li>More trainable capacity is needed without increasing inference-time model size.</li>
           </div>
         </div>
         <div class="detail-tags">AAAI'26 · Model adaptation · Gaze estimation</div>
@@ -299,10 +299,10 @@ My research centers on making AI practical under limited data, compute, and memo
             <i class="fas fa-lightbulb"></i> Use when
           </div>
           
-            <div class="detail-use-chips">
-              <span>A large vision model is too slow for real-time deployment</span>
-              <span>Personalization is needed with only a few user samples</span>
-              <span>A compact model must stay accurate under edge-device constraints</span>
+            <div class="detail-use-list">
+              <li>A large vision model is too slow for real-time deployment.</li>
+              <li>Personalization is needed with only a few user samples.</li>
+              <li>A compact model must stay accurate under edge-device constraints.</li>
           </div>
         </div>
         <div class="detail-tags">ICIP'25 (Spotlight) · 5-shot · Model compression</div>
@@ -329,6 +329,17 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Makes 3-/4-bit LLM deployment easier when calibration data is unavailable or hard to collect.
         </p>
+
+        <div class="detail-use">
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+        
+          <div class="detail-use-list">
+            <li>Make small LLMs even smaller with low-bit quantization.</li>
+            <li>Quantize without calibration data for deployment budgets.</li>
+          </div>
+        </div>
         <div class="detail-tags">LLMs · PTQ · Quantization</div>
       </article>
 
@@ -340,6 +351,18 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Compresses gaze estimation to a tiny 281K-parameter model, keeping 90% of the precision of a 10× larger model while supporting real-time personalization on edge devices.
         </p>
+
+        <div class="detail-use">
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+          
+            <div class="detail-use-list">
+              <li>A large vision model is too slow for real-time deployment.</li>
+              <li>Personalization is needed with only a few user samples.</li>
+              <li>A compact model must stay accurate under edge-device constraints.</li>
+          </div>
+        </div>
         <div class="detail-tags">ICIP'25 (Spotlight) · Distillation · Edge AI</div>
 
         <div class="detail-links">
