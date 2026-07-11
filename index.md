@@ -913,7 +913,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ["Start", "Long untrimmed video"],
             ["Constraint", "One action example"],
             ["Method", "Attention zooming"],
-            ["Outcome", "Precise matching action interval"]
+            ["Outcome", "Localized matching action interval"]
           ],
 
           impact:
