@@ -10,7 +10,7 @@ permalink: /
   <img class="about-photo-float" src="/assets/images/profile.jpg" alt="He-Yen (Louis) Hsieh">
 
   <p>
-    Hi, I’m He-Yen (Louis) Hsieh, a Ph.D. candidate in Computer Science at Harvard University, advised by
+    Hi, I'm He-Yen (Louis) Hsieh, a Ph.D. candidate in Computer Science at Harvard University, advised by
     <a href="https://www.eecs.harvard.edu/htk/">Prof. H. T. Kung</a>.
   </p>
 
@@ -31,7 +31,7 @@ permalink: /
   </p>
 
   <p>
-    I’m always happy to connect with people interested in efficient AI, model compression, generative models,
+    I'm always happy to connect with people interested in efficient AI, model compression, generative models,
     or research ideas for making AI smaller, faster, easier to adapt, and still accurate.
   </p>
 
