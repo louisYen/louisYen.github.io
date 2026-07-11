@@ -611,10 +611,13 @@ My research centers on making AI practical under limited data, compute, and memo
   </header>
   
   <div class="less-ai-model-card">
-  
+
     <div class="less-ai-model-heading">
       <strong>Your Existing AI Model</strong>
-      <span>Vision · Language · Generative AI</span>
+    </div>
+  
+    <div class="less-ai-model-bridge">
+      <span>Across model types</span>
     </div>
   
     <div class="less-ai-model-types">
