@@ -20,7 +20,11 @@ permalink: /
     in model adaptation, post-training quantization, knowledge distillation, efficient inference, gaze estimation,
     and personalization.
   </p>
-
+  
+  <p>
+  What I enjoy most is turning research ideas into working AI systems: designing new algorithms, building prototypes, and making new ideas practical.
+  </p>
+  
   <p>
     Before and during my Ph.D., I have been fortunate to work with researchers at Intel, Reality Labs Research at Meta,
     Adobe Research, and Academia Sinica. My work has been published at CVPR, AAAI, ECCV, WACV, ICIP, and ICASSP.
