@@ -601,11 +601,12 @@ My research centers on making AI practical under limited data, compute, and memo
 <section class="less-ai-section" id="how-ai-works-with-less">
 
   <header class="less-ai-header">
-    <span class="less-ai-eyebrow">One model. Different constraints.</span>
-    <h2>How Can AI Work with Less?</h2>
+    <h2>
+      How Can AI Work with <span class="less-ai-title-accent">Less</span>?
+    </h2>
+  
     <p>
-      Start with an existing AI model, choose the constraint it faces,
-      and see how my research approaches the problem.
+      Choose a constraint and see how my projects help an existing AI model work with less.
     </p>
   </header>
 
@@ -613,10 +614,6 @@ My research centers on making AI practical under limited data, compute, and memo
   <div class="less-ai-model-card">
 
     <div class="less-ai-model-heading">
-      <span class="less-ai-model-icon">
-        <i class="fas fa-brain"></i>
-      </span>
-
       <div>
         <strong>Your Existing AI Model</strong>
         <span>Vision · Language · Generative AI</span>
