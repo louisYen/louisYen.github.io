@@ -35,6 +35,21 @@ permalink: /
 
 ---
 
+## Visualizing Ideas
+
+I enjoy using visual diagrams, animations, and interactive demos to make technical ideas easier to understand. For example, during my time as a teaching assistant, I built a step-by-step visualization of Dijkstra’s algorithm to explain graph search. I also like making research more accessible through demos, including GazeGen and Gen4Gen.
+
+<div class="visual-demo">
+  <video controls poster="/assets/images/dijkstra-thumbnail.png">
+    <source src="/assets/videos/dijkstra-demo.mp4" type="video/mp4">
+  </video>
+  <p class="visual-demo-caption">
+    Step-by-step visualization of Dijkstra’s algorithm.
+  </p>
+</div>
+
+---
+
 ## Research Roadmap
 
 My research centers on making AI practical under limited data, compute, and memory. I started from computer vision problems such as detection, video understanding, and anomaly detection, then expanded into gaze estimation, generative AI, and efficient learning systems. More recently, my work focuses on efficient adaptation and compression for vision and language models.
