@@ -541,10 +541,16 @@ My research centers on making AI practical under limited data, compute, and memo
           Recognizes new object categories from only one example, making detection more flexible.
         </p>
 
+
+        <div class="detail-use">
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
           <ul class="detail-use-list">
             <li>New object categories must be detected from only one example.</li>
             <li>Full training data is unavailable for every new class.</li>
           </ul>
+        </div>
         <div class="detail-tags">CVPR'21 · Object detection · One-shot learning</div>
 
         <div class="detail-links">
@@ -566,10 +572,15 @@ My research centers on making AI practical under limited data, compute, and memo
           Finds actions in long videos from only one example, using zoom-in attention to refine coarse-to-fine action locations.
         </p>
 
-        <ul class="detail-use-list">
-          <li>Long videos need action localization with limited examples.</li>
-          <li>Coarse video cues must be refined into precise temporal action boundaries.</li>
-        </ul>
+        <div class="detail-use">
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+          <ul class="detail-use-list">
+            <li>Long videos need action localization with limited examples.</li>
+            <li>Coarse video cues must be refined into precise temporal action boundaries.</li>
+          </ul>
+        </div>
         <div class="detail-tags">ICASSP'23 · One-shot learning · Action detection · Zoom-in attention</div>
 
         <div class="detail-links">
