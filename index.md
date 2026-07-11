@@ -7,39 +7,83 @@ permalink: /
 
 <div class="about-section">
 
-  <img class="about-photo-float" src="/assets/images/profile.jpg" alt="He-Yen (Louis) Hsieh">
+  <img
+    class="about-photo-float"
+    src="/assets/images/profile.jpg"
+    alt="He-Yen (Louis) Hsieh"
+  >
 
   <p>
-    Hi, I'm He-Yen (Louis) Hsieh, a Ph.D. candidate in Computer Science at Harvard University, advised by
+    Hi, I'm He-Yen (Louis) Hsieh, a
+    <strong class="about-keyword">Ph.D. candidate in Computer Science at Harvard University</strong>,
+    advised by
     <a href="https://www.eecs.harvard.edu/htk/">Prof. H. T. Kung</a>.
   </p>
 
   <p>
-    I enjoy building machine learning algorithms that make AI models smaller, faster, and easier to adapt for real-world deployment.
-    My work spans efficient AI, generative AI, large language models, and computer vision, with recent projects
-    in model adaptation, post-training quantization, knowledge distillation, efficient inference, gaze estimation,
-    and personalization.
-  </p>
-  
-  <p>
-  What I enjoy most is turning research ideas into working AI systems: designing new algorithms, building prototypes, and making new ideas practical.
-  </p>
-  
-  <p>
-    Before and during my Ph.D., I have been fortunate to work with researchers at Intel, Reality Labs Research at Meta,
-    Adobe Research, and Academia Sinica. My work has been published at CVPR, AAAI, ECCV, WACV, ICIP, and ICASSP.
+    I enjoy building
+    <strong class="about-keyword">machine learning algorithms</strong>
+    that make AI models
+    <strong class="about-impact">smaller, faster, and easier to adapt</strong>
+    for real-world deployment. My work spans
+    <strong class="about-keyword">efficient AI</strong>,
+    <strong class="about-keyword">generative AI</strong>,
+    <strong class="about-keyword">large language models</strong>, and
+    <strong class="about-keyword">computer vision</strong>, with recent projects
+    in model adaptation, post-training quantization, knowledge distillation,
+    efficient inference, gaze estimation, and personalization.
   </p>
 
   <p>
-    I'm always happy to connect with people interested in efficient AI, model compression, generative models,
-    or research ideas for making AI smaller, faster, easier to adapt, and still accurate.
+    What I enjoy most is turning research ideas into working AI systems:
+    <strong class="about-keyword">designing new algorithms</strong>,
+    <strong class="about-keyword">building prototypes</strong>,
+    and making new ideas practical.
+  </p>
+
+  <p>
+    Before and during my Ph.D., I have been fortunate to work with researchers at
+    <strong class="about-keyword">Intel</strong>,
+    <strong class="about-keyword">Reality Labs Research at Meta</strong>,
+    <strong class="about-keyword">Adobe Research</strong>, and
+    <strong class="about-keyword">Academia Sinica</strong>.
+    My work has been published at CVPR, AAAI, ECCV, WACV, ICIP, and ICASSP.
+  </p>
+
+  <p>
+    I'm always happy to connect with people interested in efficient AI,
+    model compression, generative models, or research ideas for making AI
+    smaller, faster, easier to adapt, and still accurate.
   </p>
 
 </div>
 
+<nav class="home-section-nav" aria-label="Homepage sections">
+
+  <span class="home-section-nav-label">
+    Explore
+  </span>
+
+  <a href="#visualizing-ideas">
+    <i class="fas fa-eye" aria-hidden="true"></i>
+    Visualizing Ideas
+  </a>
+
+  <a href="#research-roadmap">
+    <i class="fas fa-map" aria-hidden="true"></i>
+    Research Roadmap
+  </a>
+
+  <a href="#how-ai-works-with-less">
+    <i class="fas fa-compress-alt" aria-hidden="true"></i>
+    How AI Works with Less
+  </a>
+
+</nav>
+
 ---
 
-## Visualizing Ideas
+<h2 id="visualizing-ideas">Visualizing Ideas</h2>
 
 I enjoy using visual diagrams, animations, and interactive demos to make technical ideas easier to understand. For example, during my time as a teaching assistant, I built a step-by-step visualization of Dijkstra's algorithm to explain graph search. I also like making research more accessible through demos, including GazeGen and Gen4Gen.
 
@@ -54,7 +98,7 @@ I enjoy using visual diagrams, animations, and interactive demos to make technic
 
 ---
 
-## Research Roadmap
+<h2 id="research-roadmap">Research Roadmap</h2>
 
 My research centers on making AI practical under limited data, compute, and memory. I started from computer vision problems such as detection, video understanding, and anomaly detection, then expanded into gaze estimation, generative AI, and efficient learning systems. More recently, my work focuses on efficient adaptation and compression for vision and language models.
 
@@ -730,7 +774,7 @@ My research centers on making AI practical under limited data, compute, and memo
         </span>
 
         <span class="less-ai-animation-label">
-          <i class="fas fa-project-diagram"></i>
+          <i class="fas fa-cogs" aria-hidden="true"></i>
           How it works
         </span>
 
