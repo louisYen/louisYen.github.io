@@ -851,19 +851,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Alfa",
           icon: "fas fa-project-diagram",
-
+        
           description:
-            "Adapts a pre-trained model to a new user or domain using only 5 target samples while keeping the deployed model compact.",
-
+            "Adapts a compact pre-trained model to a new user or domain using only five unlabeled target samples, without increasing inference-time model size.",
+        
           steps: [
-            ["Start", "Pre-trained model"],
-            ["Constraint", "Only 5 target samples"],
-            ["Method", "Compact low-rank adaptation"],
-            ["Outcome", "Adapted model with no inference-time size increase"]
+            ["Model", "Pre-trained model, compressed 5×"],
+            ["Constraint", "5 unlabeled samples; more adaptation capacity needed"],
+            ["Method", "Attend to pre-trained filters with compact low-rank adaptation"],
+            ["Outcome", "More training capacity, no inference-time size growth"]
           ],
-
+        
           impact:
-            "Useful when target data is scarce, full fine-tuning may overfit, and the deployed model cannot grow."
+            "Enables few-shot adaptation under both data and deployment constraints, adding training capacity without enlarging the deployed model."
         },
 
         {
@@ -985,19 +985,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Alfa",
           icon: "fas fa-project-diagram",
-
+        
           description:
-            "Reuses pre-trained filter structure to increase adaptation capacity while keeping the deployed model small.",
-
+            "Adapts a compact pre-trained model to a new user or domain using only five unlabeled target samples, without increasing inference-time model size.",
+        
           steps: [
-            ["Start", "Pre-trained model"],
-            ["Constraint", "Need compact adaptation"],
-            ["Method", "Low-rank filter adaptation"],
-            ["Outcome", "5× smaller model with no inference-time growth"]
+            ["Model", "Pre-trained model, compressed 5×"],
+            ["Constraint", "5 unlabeled samples; more adaptation capacity needed"],
+            ["Method", "Attend to pre-trained filters with compact low-rank adaptation"],
+            ["Outcome", "More training capacity, no inference-time size growth"]
           ],
-
+        
           impact:
-            "Adds trainable adaptation capacity during learning without adding parameters to the deployed inference model."
+            "Enables few-shot adaptation under both data and deployment constraints, adding training capacity without enlarging the deployed model."
         },
 
         {
@@ -1065,19 +1065,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Alfa",
           icon: "fas fa-project-diagram",
-
+        
           description:
-            "Uses a compact adapted model rather than increasing the deployed model size for each new user or domain.",
-
+            "Adapts a compact pre-trained model to a new user or domain using only five unlabeled target samples, without increasing inference-time model size.",
+        
           steps: [
-            ["Start", "Pre-trained model"],
-            ["Constraint", "Adaptation under deployment limits"],
-            ["Method", "Compact low-rank adaptation"],
-            ["Outcome", "Smaller deployed inference model"]
+            ["Model", "Pre-trained model, compressed 5×"],
+            ["Constraint", "5 unlabeled samples; more adaptation capacity needed"],
+            ["Method", "Attend to pre-trained filters with compact low-rank adaptation"],
+            ["Outcome", "More training capacity, no inference-time size growth"]
           ],
-
+        
           impact:
-            "A compact adapted model can reduce deployment cost while retaining enough trainable capacity for adaptation."
+            "Enables few-shot adaptation under both data and deployment constraints, adding training capacity without enlarging the deployed model."
         },
 
         {
