@@ -1019,7 +1019,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
         {
-          title: "Calibration-free PTQ",
+          title: "Calibration-free Post-training Quantization (PTQ)",
           icon: "fas fa-microchip",
         
           description:
@@ -1099,7 +1099,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
         {
-          title: "Calibration-free PTQ",
+          title: "Calibration-free Post-training Quantization (PTQ)",
           icon: "fas fa-microchip",
 
           description:
