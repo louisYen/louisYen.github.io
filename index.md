@@ -247,6 +247,12 @@ My research centers on making AI practical under limited data, compute, and memo
           Adapts to new domains with only 5 samples by reusing pre-trained knowledge, making the model 5× smaller while keeping or improving accuracy, and Alfa also extends to diffusion-based LMs for reasoning.
         </p>
         <div class="detail-tags">AAAI'26 · Model adaptation · Gaze estimation</div>
+
+        <div class="detail-links">
+          <a href="https://arxiv.org/pdf/2603.08445" class="detail-link">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+        </div>
       </article>
 
       <article id="dft-gaze-few-shot-gaze-personalization" class="detail-card">
@@ -258,6 +264,12 @@ My research centers on making AI practical under limited data, compute, and memo
           Compresses gaze estimation to a tiny 281K-parameter model, keeping 90% of the precision of a 10× larger model while supporting real-time personalization on edge devices.
         </p>
         <div class="detail-tags">ICIP'25 (Spotlight) · 5-shot · Model compression</div>
+
+        <div class="detail-links">
+          <a href="https://www.eecs.harvard.edu/htk/static/files/2025-icip-hsieh-li-zhang-ting-chang-de%20salvo-liu-kung.pdf" class="detail-link">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+        </div>
       </article>
 
     </div>
@@ -287,6 +299,12 @@ My research centers on making AI practical under limited data, compute, and memo
           Compresses gaze estimation to a tiny 281K-parameter model, keeping 90% of the precision of a 10× larger model while supporting real-time personalization on edge devices.
         </p>
         <div class="detail-tags">ICIP'25 (Spotlight) · Distillation · Edge AI</div>
+
+        <div class="detail-links">
+          <a href="https://www.eecs.harvard.edu/htk/static/files/2025-icip-hsieh-li-zhang-ting-chang-de%20salvo-liu-kung.pdf" class="detail-link">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+        </div>
       </article>
 
       <article id="edit-faster-diffusion-language-model-inference" class="detail-card">
@@ -298,6 +316,15 @@ My research centers on making AI practical under limited data, compute, and memo
           Speeds up diffusion-based language model reasoning by stopping inference once generation has stabilized.
         </p>
         <div class="detail-tags">NeurIPS OPT'25 · LLMs · Efficient inference</div>
+
+        <div class="detail-links">
+          <a href="https://arxiv.org/pdf/2512.00670" class="detail-link">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+          <a href="https://github.com/louisYen/EDIT" class="detail-link">
+            <i class="fab fa-github"></i> Code
+          </a>
+        </div>
       </article>
 
     </div>
@@ -327,6 +354,15 @@ My research centers on making AI practical under limited data, compute, and memo
           Builds a generative pipeline to create diverse synthetic training data for stronger downstream vision models.
         </p>
         <div class="detail-tags">BMVC'25 · Generative AI · Data synthesis</div>
+
+        <div class="detail-links">
+          <a href="https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_28/paper.pdf" class="detail-link">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+          <a href="https://github.com/louisYen/Gen4Gen" class="detail-link">
+            <i class="fab fa-github"></i> Code
+          </a>
+        </div>
       </article>
 
       <article id="gazegen-gaze-guided-generation" class="detail-card">
@@ -338,6 +374,15 @@ My research centers on making AI practical under limited data, compute, and memo
           Turns gaze into a natural control signal for interactive image and video generation.
         </p>
         <div class="detail-tags">Generative AI · Gaze estimation · Interaction</div>
+
+        <div class="detail-links">
+          <a href="https://arxiv.org/pdf/2411.04335" class="detail-link">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+          <a href="https://github.com/louisYen/GazeGen-demo" class="detail-link">
+            <i class="fas fa-play-circle"></i> Demo
+          </a>
+        </div>
       </article>
 
     </div>
@@ -356,6 +401,15 @@ My research centers on making AI practical under limited data, compute, and memo
           Detects abnormal events in videos with weaker supervision, reducing the need for heavy manual annotation.
         </p>
         <div class="detail-tags">ECCV'22 · Video anomaly detection</div>
+
+        <div class="detail-links">
+          <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136730727.pdf" class="detail-link">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+          <a href="https://github.com/louisYen/S3R" class="detail-link">
+            <i class="fab fa-github"></i> Code
+          </a>
+        </div>
       </article>
 
       <article id="adaptive-image-transformer-one-shot-object-detection" class="detail-card">
@@ -367,6 +421,15 @@ My research centers on making AI practical under limited data, compute, and memo
           Recognizes new object categories from only one example, making detection more flexible.
         </p>
         <div class="detail-tags">CVPR'21 · Object detection · One-shot learning</div>
+
+        <div class="detail-links">
+          <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Adaptive_Image_Transformer_for_One-Shot_Object_Detection_CVPR_2021_paper.pdf" class="detail-link">
+            <i class="fas fa-file-pdf"></i> Paper
+          </a>
+          <a href="https://github.com/CAIVIAC/AIT" class="detail-link">
+            <i class="fab fa-github"></i> Code
+          </a>
+        </div>
       </article>
 
       <article id="temporal-action-detection" class="detail-card">
@@ -378,6 +441,12 @@ My research centers on making AI practical under limited data, compute, and memo
           Finds actions in long videos from only one example, using zoom-in attention to refine coarse-to-fine action locations.
         </p>
         <div class="detail-tags">ICASSP'23 · One-shot learning · Action detection · Zoom-in attention</div>
+
+        <div class="detail-links">
+          <a href="https://ieeexplore.ieee.org/document/10095638" class="detail-link">
+            <i class="fas fa-file-pdf"></i> ICASSP 2023
+          </a>
+        </div>
       </article>
 
     </div>
