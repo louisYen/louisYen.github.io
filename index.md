@@ -14,16 +14,12 @@ permalink: /
   >
 
   <p>
-    Hi, I'm He-Yen (Louis) Hsieh, a
-    <strong class="about-keyword">Ph.D. candidate in Computer Science at Harvard University</strong>,
-    advised by
+    Hi, I'm He-Yen (Louis) Hsieh, a Ph.D. candidate in Computer Science at Harvard University, advised by
     <a href="https://www.eecs.harvard.edu/htk/">Prof. H. T. Kung</a>.
   </p>
 
   <p>
-    I enjoy building
-    <strong class="about-keyword">machine learning algorithms</strong>
-    that make AI models
+    I enjoy building machine learning algorithms that make AI models
     <strong class="about-impact">smaller, faster, and easier to adapt</strong>
     for real-world deployment. My work spans
     <strong class="about-keyword">efficient AI</strong>,
@@ -35,10 +31,7 @@ permalink: /
   </p>
 
   <p>
-    What I enjoy most is turning research ideas into working AI systems:
-    <strong class="about-keyword">designing new algorithms</strong>,
-    <strong class="about-keyword">building prototypes</strong>,
-    and making new ideas practical.
+    What I enjoy most is turning research ideas into working AI systems: designing new algorithms, building prototypes, and making new ideas practical.
   </p>
 
   <p>
