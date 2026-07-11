@@ -380,6 +380,17 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Speeds up diffusion-based language model reasoning by stopping inference once generation has stabilized.
         </p>
+
+        <div class="detail-use">
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+      
+          <ul class="detail-use-list">
+            <li>Diffusion-based language models use more inference steps than needed.</li>
+            <li>Reasoning tasks need faster generation under test-time compute budgets.</li>
+          </ul>
+        </div>
         <div class="detail-tags">NeurIPS OPT'25 · LLMs · Efficient inference</div>
 
         <div class="detail-links">
@@ -407,6 +418,17 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Few-shot personalized generation from only a few user-provided examples.
         </p>
+
+        <div class="detail-use">
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+      
+          <ul class="detail-use-list">
+            <li>Personalized generation is needed from only a few examples.</li>
+            <li>Multiple user-provided concepts must appear in one generated image.</li>
+          </ul>
+        </div>
         <div class="detail-tags">Personalization · Text-to-image · Diffusion models · Few-shot generation</div>
       </article>
 
@@ -418,6 +440,17 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Builds a generative pipeline to create diverse synthetic training data for stronger downstream vision models.
         </p>
+
+        <div class="detail-use">
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+        
+          <ul class="detail-use-list">
+            <li>Generative models can be used to build a data synthesis pipeline.</li>
+            <li>Real training data is limited, expensive, or hard to collect.</li>
+          </ul>
+        </div>
         <div class="detail-tags">BMVC'25 · Generative AI · Data synthesis · Few-shot generation</div>
 
         <div class="detail-links">
@@ -438,6 +471,17 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Turns gaze into a natural control signal for interactive image and video generation.
         </p>
+
+        <div class="detail-use">
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+      
+          <ul class="detail-use-list">
+            <li>Hands-free interaction is needed for generative AI tools.</li>
+            <li>User intent should guide visual content generation naturally.</li>
+          </ul>
+        </div>
         <div class="detail-tags">Generative AI · Gaze estimation · Interaction · Few-shot learning</div>
 
         <div class="detail-links">
