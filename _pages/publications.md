@@ -266,10 +266,7 @@ For a complete and up-to-date list of my publications, please see my
         <i class="fas fa-file-pdf"></i> Paper
       </a>
       <a href="https://github.com/CAIVIAC/AIT" class="pub-link">
-        <i class="fab fa-github"></i> Official Code
-      </a>
-      <a href="https://github.com/louisYen/Adaptive-Image-Transformer" class="pub-link">
-        <i class="fab fa-github"></i> My Fork
+        <i class="fab fa-github"></i> Code
       </a>
     </div>
 
