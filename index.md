@@ -869,19 +869,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "DFT Gaze",
           icon: "fas fa-eye",
-
+        
           description:
-            "Combines a tiny model with few-shot personalization so real-time gaze estimation can adapt to individual users.",
-
+            "Compresses a pre-trained gaze model to 281K parameters, then personalizes it with only a few user samples for real-time on-device inference.",
+        
           steps: [
-            ["Start", "Larger gaze model"],
-            ["Constraint", "Only a few user samples"],
-            ["Method", "Distillation and personalization"],
-            ["Outcome", "Personalized 281K-parameter model"]
+            ["Model", "Pre-trained gaze model"],
+            ["Constraint", "Few user samples and real-time limits"],
+            ["Method", "Distill and fine-tune a compact student"],
+            ["Outcome", "281K personalized gaze model"]
           ],
-
+        
           impact:
-            "Shows how model compression and few-shot learning can be designed together for real-time on-device vision."
+            "Brings personalized gaze estimation to resource-constrained devices with only a few user samples."
         },
 
         {
@@ -1003,19 +1003,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "DFT Gaze",
           icon: "fas fa-eye",
-
+        
           description:
-            "Compresses gaze estimation into a tiny model through knowledge distillation and compact architecture design.",
-
+            "Compresses a pre-trained gaze model to 281K parameters, then personalizes it with only a few user samples for real-time on-device inference.",
+        
           steps: [
-            ["Start", "Larger gaze estimator"],
-            ["Constraint", "Edge memory and latency"],
-            ["Method", "Distillation and compact design"],
-            ["Outcome", "281K-parameter gaze model"]
+            ["Model", "Pre-trained gaze model"],
+            ["Constraint", "Few user samples and real-time limits"],
+            ["Method", "Distill and fine-tune a compact student"],
+            ["Outcome", "281K personalized gaze model"]
           ],
-
+        
           impact:
-            "Preserves strong precision while reducing model size for real-time deployment on constrained hardware."
+            "Brings personalized gaze estimation to resource-constrained devices with only a few user samples."
         },
 
         {
@@ -1083,19 +1083,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "DFT Gaze",
           icon: "fas fa-eye",
-
+        
           description:
-            "Uses a tiny distilled vision model to support latency-sensitive and continuously running gaze estimation.",
-
+            "Compresses a pre-trained gaze model to 281K parameters, then personalizes it with only a few user samples for real-time on-device inference.",
+        
           steps: [
-            ["Start", "Larger vision model"],
-            ["Constraint", "Real-time latency"],
-            ["Method", "Distill into a compact student"],
-            ["Outcome", "281K real-time edge model"]
+            ["Model", "Pre-trained gaze model"],
+            ["Constraint", "Few user samples and real-time limits"],
+            ["Method", "Distill and fine-tune a compact student"],
+            ["Outcome", "281K personalized gaze model"]
           ],
-
+        
           impact:
-            "Useful for continuous vision tasks that must respond quickly without relying on a large cloud model."
+            "Brings personalized gaze estimation to resource-constrained devices with only a few user samples."
         },
 
         {
@@ -1145,19 +1145,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "DFT Gaze",
           icon: "fas fa-eye",
-
+        
           description:
-            "Provides an efficient real-time gaze signal that can serve as the perception layer for gaze-driven interfaces.",
-
+            "Compresses a pre-trained gaze model to 281K parameters, then personalizes it with only a few user samples for real-time on-device inference.",
+        
           steps: [
-            ["Start", "User eye images"],
-            ["Constraint", "Low-latency intent sensing"],
-            ["Method", "Tiny personalized gaze model"],
-            ["Outcome", "Real-time gaze control signal"]
+            ["Model", "Pre-trained gaze model"],
+            ["Constraint", "Few user samples and real-time limits"],
+            ["Method", "Distill and fine-tune a compact student"],
+            ["Outcome", "281K personalized gaze model"]
           ],
-
+        
           impact:
-            "Makes gaze interaction practical on edge devices before the signal is passed to an interactive AI system."
+            "Brings personalized gaze estimation to resource-constrained devices with only a few user samples."
         },
 
         {
