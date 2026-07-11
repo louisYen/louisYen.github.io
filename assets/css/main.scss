@@ -484,6 +484,38 @@ search: false
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
 }
 
+.detail-use {
+  margin: 0.85em 0 0.55em;
+}
+
+.detail-use-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin-bottom: 0.45em;
+  color: var(--branch-color);
+  font-size: 0.86em;
+  font-weight: 700;
+}
+
+.detail-use-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em;
+}
+
+.detail-use-chips span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28em 0.6em;
+  border: 1px solid var(--branch-border);
+  border-radius: 999px;
+  background: #fff;
+  color: #555;
+  font-size: 0.78em;
+  line-height: 1.35;
+}
+
 /* Publications page */
 
 .publication-list {
