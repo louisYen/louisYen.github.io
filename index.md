@@ -478,8 +478,8 @@ My research centers on making AI practical under limited data, compute, and memo
           </div>
       
           <ul class="detail-use-list">
-            <li>Hands-free interaction is needed for generative AI tools.</li>
-            <li>User intent should guide visual content generation naturally.</li>
+            <li>User intent should guide generation without heavy manual interaction.</li>
+            <li>Gaze can serve as a lightweight control signal for interactive AI systems.</li>
           </ul>
         </div>
         <div class="detail-tags">Generative AI · Gaze estimation · Interaction · Few-shot learning</div>
@@ -509,6 +509,17 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Detects abnormal events in videos with weaker supervision, reducing the need for heavy manual annotation.
         </p>
+
+        <div class="detail-use">
+          <div class="detail-use-title">
+            <i class="fas fa-lightbulb"></i> Use when
+          </div>
+        
+          <ul class="detail-use-list">
+            <li>Video understanding needs to scale without dense frame-level labels.</li>
+            <li>Rare events must be detected from compact normal-pattern representations.</li>
+          </ul>
+        </div>
         <div class="detail-tags">ECCV'22 · Video anomaly detection</div>
 
         <div class="detail-links">
@@ -529,6 +540,11 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Recognizes new object categories from only one example, making detection more flexible.
         </p>
+
+          <ul class="detail-use-list">
+            <li>New object categories must be detected from only one example.</li>
+            <li>Full training data is unavailable for every new class.</li>
+          </ul>
         <div class="detail-tags">CVPR'21 · Object detection · One-shot learning</div>
 
         <div class="detail-links">
@@ -549,6 +565,11 @@ My research centers on making AI practical under limited data, compute, and memo
         <p>
           Finds actions in long videos from only one example, using zoom-in attention to refine coarse-to-fine action locations.
         </p>
+
+        <ul class="detail-use-list">
+          <li>Long videos need action localization with limited examples.</li>
+          <li>Coarse video cues must be refined into precise temporal action boundaries.</li>
+        </ul>
         <div class="detail-tags">ICASSP'23 · One-shot learning · Action detection · Zoom-in attention</div>
 
         <div class="detail-links">
