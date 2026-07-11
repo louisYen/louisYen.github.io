@@ -787,83 +787,6 @@ search: false
   font-size: 0.76em;
 }
 
-
-/* Generic neural network */
-
-.less-ai-network {
-  display: flex;
-  min-height: 105px;
-  align-items: center;
-  justify-content: center;
-  gap: 1.1em;
-  margin: 1em 0 0.8em;
-}
-
-.less-ai-layer {
-  display: flex;
-  flex-direction: column;
-  gap: 0.38em;
-}
-
-.less-ai-layer span {
-  display: block;
-  width: 13px;
-  height: 13px;
-  border: 2px solid #c76d6d;
-  border-radius: 50%;
-  background: #fff;
-  animation: lessAiNodePulse 2.4s ease-in-out infinite;
-}
-
-.less-ai-layer:nth-of-type(3) span {
-  animation-delay: 0.3s;
-}
-
-.less-ai-layer:nth-of-type(5) span {
-  animation-delay: 0.6s;
-}
-
-.less-ai-network-lines {
-  width: 105px;
-  height: 70px;
-  opacity: 0.42;
-  background:
-    linear-gradient(
-      27deg,
-      transparent 47%,
-      #c76d6d 48%,
-      #c76d6d 49%,
-      transparent 50%
-    ),
-    linear-gradient(
-      -27deg,
-      transparent 47%,
-      #c76d6d 48%,
-      #c76d6d 49%,
-      transparent 50%
-    ),
-    linear-gradient(
-      0deg,
-      transparent 49%,
-      #c76d6d 50%,
-      transparent 51%
-    );
-  background-size: 100% 23px;
-}
-
-@keyframes lessAiNodePulse {
-  0%,
-  100% {
-    transform: scale(1);
-    background: #fff;
-  }
-
-  50% {
-    transform: scale(1.13);
-    background: #f7dede;
-  }
-}
-
 .less-ai-model-types {
   display: flex;
   flex-wrap: wrap;
@@ -1335,10 +1258,6 @@ search: false
     min-height: 70px;
   }
 
-  .less-ai-network-lines {
-    width: 58px;
-  }
-
   .less-ai-project-list {
     grid-template-columns: 1fr;
   }
@@ -1368,7 +1287,6 @@ search: false
 /* Accessibility */
 
 @media (prefers-reduced-motion: reduce) {
-  .less-ai-layer span,
   .less-ai-flow.replay .less-ai-flow-step,
   .less-ai-flow.replay .less-ai-flow-arrow {
     animation: none;
