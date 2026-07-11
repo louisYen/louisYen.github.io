@@ -272,6 +272,147 @@ For a complete and up-to-date list of my publications, please see my
 
   </div>
 </div>
+
+<div class="publication-card pub-vision">
+
+  <div class="publication-thumb">
+    <img src="/assets/images/publications/taz.png" alt="One-Shot Action Detection via Attention Zooming In paper thumbnail">
+  </div>
+
+  <div class="publication-content">
+
+    <div class="publication-venue">ICASSP 2023</div>
+
+    <h3 class="publication-title">
+      One-Shot Action Detection via Attention Zooming In
+    </h3>
+
+    <p class="publication-authors">
+      <strong>He-Yen Hsieh</strong>, Ding-Jie Chen, Cheng-Wei Chang, Tyng-Luh Liu
+    </p>
+
+    <p class="publication-desc">
+      This work localizes unseen actions in long videos from only one support image by using attention zooming to progressively refine action proposals.
+    </p>
+
+    <div class="publication-tags">
+      Action localization · One-shot learning · Video understanding · Attention zooming · Temporal action detection
+    </div>
+
+    <div class="publication-links">
+      <a href="https://ieeexplore.ieee.org/document/10095638" class="pub-link">
+        <i class="fas fa-file-pdf"></i> Paper
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<div class="publication-card pub-vision">
+
+  <div class="publication-thumb">
+    <img src="/assets/images/publications/aba.png" alt="Aggregating Bilateral Attention paper thumbnail">
+  </div>
+
+  <div class="publication-content">
+
+    <div class="publication-venue">WACV 2023</div>
+
+    <h3 class="publication-title">
+      Aggregating Bilateral Attention for Few-Shot Instance Localization
+    </h3>
+
+    <p class="publication-authors">
+      <strong>He-Yen Hsieh</strong>, Ding-Jie Chen, Cheng-Wei Chang, Tyng-Luh Liu
+    </p>
+
+    <p class="publication-desc">
+      ABA improves few-shot instance localization by aggregating query-support attention, helping models find unseen actions and objects with only a few examples.
+    </p>
+
+    <div class="publication-tags">
+      Few-shot learning · Instance localization · Action localization · One-shot object detection · Attention
+    </div>
+
+    <div class="publication-links">
+      <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Hsieh_Aggregating_Bilateral_Attention_for_Few-Shot_Instance_Localization_WACV_2023_paper.pdf" class="pub-link">
+        <i class="fas fa-file-pdf"></i> Paper
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<div class="publication-card pub-vision">
+
+  <div class="publication-thumb">
+    <img src="/assets/images/publications/cpn.png" alt="Contextual Proposal Network paper thumbnail">
+  </div>
+
+  <div class="publication-content">
+
+    <div class="publication-venue">WACV 2022</div>
+
+    <h3 class="publication-title">
+      Contextual Proposal Network for Action Localization
+    </h3>
+
+    <p class="publication-authors">
+      <strong>He-Yen Hsieh</strong>, Ding-Jie Chen, Tyng-Luh Liu
+    </p>
+
+    <p class="publication-desc">
+      CPN generates high-quality temporal action proposals by modeling multi-scale temporal context and boundary cues in long untrimmed videos.
+    </p>
+
+    <div class="publication-tags">
+      Temporal action localization · Action proposal generation · Video understanding · Boundary prediction · Context modeling
+    </div>
+
+    <div class="publication-links">
+      <a href="https://openaccess.thecvf.com/content/WACV2022/papers/Hsieh_Contextual_Proposal_Network_for_Action_Localization_WACV_2022_paper.pdf" class="pub-link">
+        <i class="fas fa-file-pdf"></i> Paper
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<div class="publication-card pub-vision">
+
+  <div class="publication-thumb">
+    <img src="/assets/images/publications/fanet.png" alt="Temporal Action Proposal Generation via Deep Feature Enhancement paper thumbnail">
+  </div>
+
+  <div class="publication-content">
+
+    <div class="publication-venue">ICIP 2020</div>
+
+    <h3 class="publication-title">
+      Temporal Action Proposal Generation via Deep Feature Enhancement
+    </h3>
+
+    <p class="publication-authors">
+      <strong>He-Yen Hsieh</strong>, Ding-Jie Chen, Tyng-Luh Liu
+    </p>
+
+    <p class="publication-desc">
+      This work improves temporal action proposal generation by enhancing video segment features and expanding multi-granularity proposal representations.
+    </p>
+
+    <div class="publication-tags">
+      Temporal action proposal generation · Feature enhancement · Video understanding · Action localization · Proposal representation
+    </div>
+
+    <div class="publication-links">
+      <a href="https://ieeexplore.ieee.org/document/9190975" class="pub-link">
+        <i class="fas fa-file-pdf"></i> Paper
+      </a>
+    </div>
+
+  </div>
+</div>
+
 ---
 
 ## Notes
