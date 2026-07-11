@@ -74,7 +74,14 @@ permalink: /
 
 <h2 id="visualizing-ideas">Visualizing Ideas</h2>
 
-I enjoy using visual diagrams, animations, and interactive demos to make technical ideas easier to understand. For example, during my time as a teaching assistant, I built a step-by-step visualization of Dijkstra's algorithm to explain graph search. I also like making research more accessible through demos, including GazeGen and Gen4Gen.
+<p>
+  I enjoy using visual diagrams, animations, and interactive demos to make technical ideas easier to understand. 
+  For example, during my time as a teaching assistant, I built a step-by-step visualization of Dijkstra’s algorithm to explain graph search. 
+  I also like making research more accessible through demos, including 
+  <a href="https://github.com/louisYen/GazeGen-demo" target="_blank" rel="noopener noreferrer">GazeGen</a> 
+  and 
+  <a href="https://github.com/louisYen/Gen4Gen/tree/main" target="_blank" rel="noopener noreferrer">Gen4Gen</a>.
+</p>
 
 <div class="visual-demo">
   <video controls poster="/assets/images/dijkstra-thumbnail.png">
