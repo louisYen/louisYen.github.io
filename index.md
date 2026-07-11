@@ -107,7 +107,7 @@ My research centers on making AI practical under limited data, compute, and memo
 
     <div class="tree-branch branch-compression">
       <a class="tree-node branch-node" href="#model-compression">
-        <div class="node-title">Model Compression</div>
+        <div class="node-title">Efficient AI Deployment</div>
         <div class="node-desc">
           Reducing model size and inference cost for deployment.
         </div>
@@ -295,7 +295,7 @@ My research centers on making AI practical under limited data, compute, and memo
   </section>
 
   <section id="model-compression" class="detail-section branch-compression">
-    <h2>Model Compression</h2>
+    <h2>Efficient AI Deployment</h2>
     <div class="detail-grid">
 
       <article id="calibration-free-ptq-for-llms" class="detail-card">
