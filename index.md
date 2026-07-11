@@ -929,9 +929,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
           steps: [
             ["Start", "Large video corpus"],
-            ["Constraint", "Weak video-level labels"],
-            ["Method", "Compact patterns and reconstruction"],
-            ["Outcome", "Rare abnormal events identified"]
+            ["Constraint", "Weak labels; scarce rare-event examples"],
+            ["Method", "Reconstruct features from a sparse normal-pattern dictionary"],
+            ["Outcome", "Detect anomalies from reconstruction residuals"]
           ],
 
           impact:
@@ -959,19 +959,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Personalized Generation",
           icon: "fas fa-palette",
-
+        
           description:
-            "Learns user-provided concepts from only a few images and places them through layout-guided generation.",
-
+            "Learns multiple user-provided concepts from only a few images for controllable personalized generation.",
+        
           steps: [
             ["Start", "General image generator"],
-            ["Constraint", "Only a few concept images"],
-            ["Method", "Few-shot and layout-guided personalization"],
-            ["Outcome", "Controllable multi-concept generation"]
+            ["Constraint", "Few images per concept"],
+            ["Method", "Few-shot multi-concept personalization"],
+            ["Outcome", "Controllable personalized generation"]
           ],
-
+        
           impact:
-            "Useful when users need concept identity and spatial control from only a few examples."
+            "Learns multiple personalized concepts from only a few examples and generates them in new images."
         }
       ]
     },
@@ -1163,19 +1163,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Personalized Generation",
           icon: "fas fa-palette",
-
+        
           description:
-            "Learns personal concepts from a few images and gives users layout control over where those concepts appear.",
-
+            "Learns multiple user-provided concepts from only a few images for controllable personalized generation.",
+        
           steps: [
             ["Start", "General image generator"],
-            ["Constraint", "Repeated prompting and editing"],
-            ["Method", "Few-shot concepts plus layout control"],
-            ["Outcome", "Personalized controllable generation"]
+            ["Constraint", "Few images per concept"],
+            ["Method", "Few-shot multi-concept personalization"],
+            ["Outcome", "Controllable personalized generation"]
           ],
-
+        
           impact:
-            "Reduces the effort required to teach a model new concepts and arrange them as the user intends."
+            "Learns multiple personalized concepts from only a few examples and generates them in new images."
         }
       ]
     }
