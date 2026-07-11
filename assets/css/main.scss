@@ -458,6 +458,32 @@ search: false
   }
 }
 
+.detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin-top: 0.85em;
+}
+
+.detail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.32em 0.65em;
+  border: 1px solid var(--branch-border);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--branch-color) !important;
+  text-decoration: none !important;
+  font-size: 0.78em;
+  font-weight: 700;
+}
+
+.detail-link:hover {
+  border-color: var(--branch-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
 /* Publications page */
 
 .publication-list {
