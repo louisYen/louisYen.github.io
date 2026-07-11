@@ -1021,19 +1021,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Calibration-free PTQ",
           icon: "fas fa-microchip",
-
+        
           description:
-            "Makes small LLMs even smaller through 3-/4-bit recovery-guided quantization without calibration data.",
-
+            "Makes small LLMs even smaller with 3-/4-bit post-training quantization, without calibration data.",
+        
           steps: [
-            ["Start", "Small LLM"],
-            ["Constraint", "Memory or deployment budget"],
-            ["Method", "3-/4-bit recovery-guided PTQ"],
-            ["Outcome", "Smaller low-bit LLM without calibration"]
+            ["Model", "Small LLM"],
+            ["Constraint", "Limited deployment memory"],
+            ["Method", "Calibration-free 3-/4-bit PTQ"],
+            ["Outcome", "Smaller low-bit LLM"]
           ],
-
+        
           impact:
-            "Useful when even a small LLM exceeds deployment memory and calibration data is unavailable or private."
+            "Reduces memory requirements for local or resource-constrained LLM deployment without calibration data."
         }
       ]
     },
