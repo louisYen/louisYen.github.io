@@ -244,7 +244,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2026</span>
         </div>
         <p>
-          Adapts to new domains with only 5 samples by reusing pre-trained knowledge, making the model 5× smaller while keeping or improving accuracy.
+          Adapts to new domains with only 5 samples by reusing pre-trained knowledge, making the model 5× smaller while keeping or improving accuracy, and Alfa also extends to diffusion-based LMs for reasoning.
         </p>
         <div class="detail-tags">AAAI'26 · Model adaptation · Gaze estimation</div>
       </article>
