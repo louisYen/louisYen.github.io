@@ -1139,7 +1139,7 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
 
           impact:
-            "Lets user attention directly guide generative AI without repeated mouse, touch, or text interaction."
+            "Lets users control generative AI simply by looking, without repeated mouse or touch interaction."
         },
 
         {
