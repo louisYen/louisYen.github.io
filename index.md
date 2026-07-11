@@ -594,3 +594,738 @@ My research centers on making AI practical under limited data, compute, and memo
   </section>
 
 </div>
+
+
+---
+
+<section class="less-ai-section" id="how-ai-works-with-less">
+
+  <header class="less-ai-header">
+    <span class="less-ai-eyebrow">One model. Different constraints.</span>
+    <h2>How Can AI Work with Less?</h2>
+    <p>
+      Start with an existing AI model, choose the constraint it faces,
+      and see how my research approaches the problem.
+    </p>
+  </header>
+
+  <!-- Existing AI model -->
+  <div class="less-ai-model-card">
+
+    <div class="less-ai-model-heading">
+      <span class="less-ai-model-icon">
+        <i class="fas fa-brain"></i>
+      </span>
+
+      <div>
+        <strong>Your Existing AI Model</strong>
+        <span>Vision · Language · Generative AI</span>
+      </div>
+    </div>
+
+    <div class="less-ai-network" aria-hidden="true">
+
+      <div class="less-ai-layer">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="less-ai-network-lines"></div>
+
+      <div class="less-ai-layer">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="less-ai-network-lines"></div>
+
+      <div class="less-ai-layer">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </div>
+
+    <div class="less-ai-model-types">
+      <span><i class="fas fa-eye"></i> Vision</span>
+      <span><i class="fas fa-comment-alt"></i> Language</span>
+      <span><i class="fas fa-image"></i> Generation</span>
+      <span><i class="fas fa-video"></i> Video</span>
+    </div>
+
+  </div>
+
+  <div class="less-ai-question">
+    What constraint does your AI face?
+  </div>
+
+  <!-- Constraint buttons -->
+  <div class="less-ai-tabs" role="tablist" aria-label="AI constraints">
+
+    <button
+      type="button"
+      class="less-ai-tab theme-data active"
+      data-constraint="data"
+      role="tab"
+      aria-selected="true"
+    >
+      <i class="fas fa-database"></i>
+
+      <span>
+        <strong>Less Data</strong>
+        <small>Learn with fewer samples or labels</small>
+      </span>
+    </button>
+
+    <button
+      type="button"
+      class="less-ai-tab theme-parameters"
+      data-constraint="parameters"
+      role="tab"
+      aria-selected="false"
+    >
+      <i class="fas fa-compress-alt"></i>
+
+      <span>
+        <strong>Less Parameters</strong>
+        <small>Build smaller deployable models</small>
+      </span>
+    </button>
+
+    <button
+      type="button"
+      class="less-ai-tab theme-compute"
+      data-constraint="compute"
+      role="tab"
+      aria-selected="false"
+    >
+      <i class="fas fa-bolt"></i>
+
+      <span>
+        <strong>Less Compute</strong>
+        <small>Reduce inference cost and latency</small>
+      </span>
+    </button>
+
+    <button
+      type="button"
+      class="less-ai-tab theme-interaction"
+      data-constraint="interaction"
+      role="tab"
+      aria-selected="false"
+    >
+      <i class="fas fa-hand-pointer"></i>
+
+      <span>
+        <strong>Less Interaction</strong>
+        <small>Enable lightweight natural control</small>
+      </span>
+    </button>
+
+  </div>
+
+  <!-- Interactive content -->
+  <div
+    class="less-ai-workspace theme-data"
+    id="less-ai-workspace"
+    role="tabpanel"
+  >
+
+    <aside class="less-ai-project-column">
+
+      <div class="less-ai-column-label">
+        Related projects
+      </div>
+
+      <div
+        class="less-ai-project-list"
+        id="less-ai-project-list"
+      ></div>
+
+    </aside>
+
+    <div class="less-ai-demo-column">
+
+      <div class="less-ai-demo-top">
+
+        <span
+          class="less-ai-demo-category"
+          id="less-ai-demo-category"
+        >
+          Less Data
+        </span>
+
+        <span class="less-ai-animation-label">
+          <i class="fas fa-play"></i>
+          Project flow
+        </span>
+
+      </div>
+
+      <h3 id="less-ai-demo-title">Alfa</h3>
+
+      <p
+        class="less-ai-demo-description"
+        id="less-ai-demo-description"
+      ></p>
+
+      <div
+        class="less-ai-flow"
+        id="less-ai-flow"
+        aria-live="polite"
+      >
+
+        <div class="less-ai-flow-step">
+          <span class="less-ai-step-number">1</span>
+          <small id="less-ai-step-label-1">Start</small>
+          <strong id="less-ai-step-value-1"></strong>
+        </div>
+
+        <div class="less-ai-flow-arrow">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="less-ai-flow-step">
+          <span class="less-ai-step-number">2</span>
+          <small id="less-ai-step-label-2">Constraint</small>
+          <strong id="less-ai-step-value-2"></strong>
+        </div>
+
+        <div class="less-ai-flow-arrow">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="less-ai-flow-step">
+          <span class="less-ai-step-number">3</span>
+          <small id="less-ai-step-label-3">Method</small>
+          <strong id="less-ai-step-value-3"></strong>
+        </div>
+
+        <div class="less-ai-flow-arrow">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="less-ai-flow-step">
+          <span class="less-ai-step-number">4</span>
+          <small id="less-ai-step-label-4">Outcome</small>
+          <strong id="less-ai-step-value-4"></strong>
+        </div>
+
+      </div>
+
+      <div class="less-ai-impact">
+
+        <span>
+          <i class="fas fa-lightbulb"></i>
+          Why it matters
+        </span>
+
+        <p id="less-ai-demo-impact"></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const constraints = {
+
+    data: {
+      label: "Less Data",
+      theme: "theme-data",
+
+      projects: [
+        {
+          title: "Alfa",
+          icon: "fas fa-project-diagram",
+
+          description:
+            "Adapts a pre-trained model to a new user or domain using only 5 target samples while keeping the deployed model compact.",
+
+          steps: [
+            ["Start", "Pre-trained model"],
+            ["Constraint", "Only 5 target samples"],
+            ["Method", "Compact low-rank adaptation"],
+            ["Outcome", "Adapted model with no inference-time size increase"]
+          ],
+
+          impact:
+            "Useful when target data is scarce, full fine-tuning may overfit, and the deployed model cannot grow."
+        },
+
+        {
+          title: "DFT Gaze",
+          icon: "fas fa-eye",
+
+          description:
+            "Combines a tiny model with few-shot personalization so real-time gaze estimation can adapt to individual users.",
+
+          steps: [
+            ["Start", "Larger gaze model"],
+            ["Constraint", "Only a few user samples"],
+            ["Method", "Distillation and personalization"],
+            ["Outcome", "Personalized 281K-parameter model"]
+          ],
+
+          impact:
+            "Shows how model compression and few-shot learning can be designed together for real-time on-device vision."
+        },
+
+        {
+          title: "Adaptive Image Transformer",
+          icon: "fas fa-search",
+
+          description:
+            "Detects an unseen object category from only one reference image by adapting visual features to the target object.",
+
+          steps: [
+            ["Start", "Existing object detector"],
+            ["Constraint", "One reference image"],
+            ["Method", "Adaptive feature matching"],
+            ["Outcome", "Detect a new object category"]
+          ],
+
+          impact:
+            "Useful when new visual categories appear faster than complete training datasets can be collected."
+        },
+
+        {
+          title: "Temporal Action Detection",
+          icon: "fas fa-film",
+
+          description:
+            "Finds an action in a long video from one support example and progressively refines its temporal boundaries.",
+
+          steps: [
+            ["Start", "Long untrimmed video"],
+            ["Constraint", "One action example"],
+            ["Method", "Attention zooming"],
+            ["Outcome", "Precise matching action interval"]
+          ],
+
+          impact:
+            "Supports one-shot temporal localization when dense action annotations are unavailable."
+        },
+
+        {
+          title: "S3R",
+          icon: "fas fa-video",
+
+          description:
+            "Learns compact normal-pattern representations from weak supervision and reconstructs features to identify abnormal events.",
+
+          steps: [
+            ["Start", "Large video corpus"],
+            ["Constraint", "Weak video-level labels"],
+            ["Method", "Compact patterns and reconstruction"],
+            ["Outcome", "Rare abnormal events identified"]
+          ],
+
+          impact:
+            "Scales video anomaly detection without requiring dense frame-level labels across large video collections."
+        },
+
+        {
+          title: "Gen4Gen",
+          icon: "fas fa-images",
+
+          description:
+            "Uses generative models as a data pipeline to create diverse image-text pairs for personalized generation.",
+
+          steps: [
+            ["Start", "Limited image-text data"],
+            ["Constraint", "Insufficient training diversity"],
+            ["Method", "Generative data pipeline"],
+            ["Outcome", "More training pairs and stronger generation"]
+          ],
+
+          impact:
+            "Turns a generative model into a data engine when real examples are limited or difficult to collect."
+        },
+
+        {
+          title: "Personalized Generation",
+          icon: "fas fa-palette",
+
+          description:
+            "Learns user-provided concepts from only a few images and places them through layout-guided generation.",
+
+          steps: [
+            ["Start", "General image generator"],
+            ["Constraint", "Only a few concept images"],
+            ["Method", "Few-shot and layout-guided personalization"],
+            ["Outcome", "Controllable multi-concept generation"]
+          ],
+
+          impact:
+            "Useful when users need concept identity and spatial control from only a few examples."
+        }
+      ]
+    },
+
+
+    parameters: {
+      label: "Less Parameters",
+      theme: "theme-parameters",
+
+      projects: [
+        {
+          title: "Alfa",
+          icon: "fas fa-project-diagram",
+
+          description:
+            "Reuses pre-trained filter structure to increase adaptation capacity while keeping the deployed model small.",
+
+          steps: [
+            ["Start", "Pre-trained model"],
+            ["Constraint", "Need compact adaptation"],
+            ["Method", "Low-rank filter adaptation"],
+            ["Outcome", "5× smaller model with no inference-time growth"]
+          ],
+
+          impact:
+            "Adds trainable adaptation capacity during learning without adding parameters to the deployed inference model."
+        },
+
+        {
+          title: "DFT Gaze",
+          icon: "fas fa-eye",
+
+          description:
+            "Compresses gaze estimation into a tiny model through knowledge distillation and compact architecture design.",
+
+          steps: [
+            ["Start", "Larger gaze estimator"],
+            ["Constraint", "Edge memory and latency"],
+            ["Method", "Distillation and compact design"],
+            ["Outcome", "281K-parameter gaze model"]
+          ],
+
+          impact:
+            "Preserves strong precision while reducing model size for real-time deployment on constrained hardware."
+        },
+
+        {
+          title: "Calibration-free PTQ",
+          icon: "fas fa-microchip",
+
+          description:
+            "Makes small LLMs even smaller through 3-/4-bit recovery-guided quantization without calibration data.",
+
+          steps: [
+            ["Start", "Small LLM"],
+            ["Constraint", "Memory or deployment budget"],
+            ["Method", "3-/4-bit recovery-guided PTQ"],
+            ["Outcome", "Smaller low-bit LLM without calibration"]
+          ],
+
+          impact:
+            "Useful when even a small LLM exceeds deployment memory and calibration data is unavailable or private."
+        }
+      ]
+    },
+
+
+    compute: {
+      label: "Less Compute",
+      theme: "theme-compute",
+
+      projects: [
+        {
+          title: "EDIT",
+          icon: "fas fa-stopwatch",
+
+          description:
+            "Reduces unnecessary test-time computation by stopping diffusion language model inference once generation stabilizes.",
+
+          steps: [
+            ["Start", "Diffusion language model"],
+            ["Constraint", "Too many inference steps"],
+            ["Method", "Detect generation stabilization"],
+            ["Outcome", "Stop early with fewer steps"]
+          ],
+
+          impact:
+            "Speeds up reasoning without spending the full inference budget on every example."
+        },
+
+        {
+          title: "Alfa",
+          icon: "fas fa-project-diagram",
+
+          description:
+            "Uses a compact adapted model rather than increasing the deployed model size for each new user or domain.",
+
+          steps: [
+            ["Start", "Pre-trained model"],
+            ["Constraint", "Adaptation under deployment limits"],
+            ["Method", "Compact low-rank adaptation"],
+            ["Outcome", "Smaller deployed inference model"]
+          ],
+
+          impact:
+            "A compact adapted model can reduce deployment cost while retaining enough trainable capacity for adaptation."
+        },
+
+        {
+          title: "DFT Gaze",
+          icon: "fas fa-eye",
+
+          description:
+            "Uses a tiny distilled vision model to support latency-sensitive and continuously running gaze estimation.",
+
+          steps: [
+            ["Start", "Larger vision model"],
+            ["Constraint", "Real-time latency"],
+            ["Method", "Distill into a compact student"],
+            ["Outcome", "281K real-time edge model"]
+          ],
+
+          impact:
+            "Useful for continuous vision tasks that must respond quickly without relying on a large cloud model."
+        },
+
+        {
+          title: "Calibration-free PTQ",
+          icon: "fas fa-microchip",
+
+          description:
+            "Reduces weight precision to support lighter low-bit inference for small language models.",
+
+          steps: [
+            ["Start", "Small full-precision LLM"],
+            ["Constraint", "Memory and data movement"],
+            ["Method", "3-/4-bit quantization"],
+            ["Outcome", "Lighter low-bit inference"]
+          ],
+
+          impact:
+            "Reduces model memory and data movement for local or resource-constrained language-model deployment."
+        }
+      ]
+    },
+
+
+    interaction: {
+      label: "Less Interaction",
+      theme: "theme-interaction",
+
+      projects: [
+        {
+          title: "GazeGen",
+          icon: "fas fa-magic",
+
+          description:
+            "Uses gaze as a lightweight control signal for interactive image and video generation.",
+
+          steps: [
+            ["Start", "Image or video generator"],
+            ["Constraint", "Heavy manual interaction"],
+            ["Method", "Gaze-conditioned control"],
+            ["Outcome", "Hands-free visual generation"]
+          ],
+
+          impact:
+            "Lets user attention directly guide generative AI without repeated mouse, touch, or text interaction."
+        },
+
+        {
+          title: "DFT Gaze",
+          icon: "fas fa-eye",
+
+          description:
+            "Provides an efficient real-time gaze signal that can serve as the perception layer for gaze-driven interfaces.",
+
+          steps: [
+            ["Start", "User eye images"],
+            ["Constraint", "Low-latency intent sensing"],
+            ["Method", "Tiny personalized gaze model"],
+            ["Outcome", "Real-time gaze control signal"]
+          ],
+
+          impact:
+            "Makes gaze interaction practical on edge devices before the signal is passed to an interactive AI system."
+        },
+
+        {
+          title: "Personalized Generation",
+          icon: "fas fa-palette",
+
+          description:
+            "Learns personal concepts from a few images and gives users layout control over where those concepts appear.",
+
+          steps: [
+            ["Start", "General image generator"],
+            ["Constraint", "Repeated prompting and editing"],
+            ["Method", "Few-shot concepts plus layout control"],
+            ["Outcome", "Personalized controllable generation"]
+          ],
+
+          impact:
+            "Reduces the effort required to teach a model new concepts and arrange them as the user intends."
+        }
+      ]
+    }
+  };
+
+
+  const tabs =
+    document.querySelectorAll(".less-ai-tab");
+
+  const workspace =
+    document.getElementById("less-ai-workspace");
+
+  const projectList =
+    document.getElementById("less-ai-project-list");
+
+  const categoryElement =
+    document.getElementById("less-ai-demo-category");
+
+  const titleElement =
+    document.getElementById("less-ai-demo-title");
+
+  const descriptionElement =
+    document.getElementById("less-ai-demo-description");
+
+  const impactElement =
+    document.getElementById("less-ai-demo-impact");
+
+  const flowElement =
+    document.getElementById("less-ai-flow");
+
+
+  function replayFlowAnimation() {
+    flowElement.classList.remove("replay");
+
+    void flowElement.offsetWidth;
+
+    flowElement.classList.add("replay");
+  }
+
+
+  function renderProject(project, projectIndex) {
+
+    titleElement.textContent =
+      project.title;
+
+    descriptionElement.textContent =
+      project.description;
+
+    impactElement.textContent =
+      project.impact;
+
+    project.steps.forEach(function (step, index) {
+      const stepNumber = index + 1;
+
+      document.getElementById(
+        "less-ai-step-label-" + stepNumber
+      ).textContent = step[0];
+
+      document.getElementById(
+        "less-ai-step-value-" + stepNumber
+      ).textContent = step[1];
+    });
+
+    document
+      .querySelectorAll(".less-ai-project-button")
+      .forEach(function (button, index) {
+        button.classList.toggle(
+          "active",
+          index === projectIndex
+        );
+      });
+
+    replayFlowAnimation();
+  }
+
+
+  function renderConstraint(constraintKey) {
+
+    const constraint =
+      constraints[constraintKey];
+
+    workspace.className =
+      "less-ai-workspace " + constraint.theme;
+
+    categoryElement.textContent =
+      constraint.label;
+
+    projectList.innerHTML = "";
+
+    constraint.projects.forEach(function (project, index) {
+
+      const button =
+        document.createElement("button");
+
+      button.type = "button";
+
+      button.className =
+        "less-ai-project-button" +
+        (index === 0 ? " active" : "");
+
+      button.innerHTML =
+        '<i class="' +
+        project.icon +
+        '"></i><span>' +
+        project.title +
+        "</span>";
+
+      button.addEventListener("click", function () {
+        renderProject(project, index);
+      });
+
+      projectList.appendChild(button);
+    });
+
+    renderProject(
+      constraint.projects[0],
+      0
+    );
+  }
+
+
+  tabs.forEach(function (tab) {
+
+    tab.addEventListener("click", function () {
+
+      const constraintKey =
+        tab.dataset.constraint;
+
+      tabs.forEach(function (item) {
+
+        const isActive =
+          item === tab;
+
+        item.classList.toggle(
+          "active",
+          isActive
+        );
+
+        item.setAttribute(
+          "aria-selected",
+          isActive ? "true" : "false"
+        );
+      });
+
+      renderConstraint(constraintKey);
+    });
+  });
+
+
+  renderConstraint("data");
+
+});
+</script>
