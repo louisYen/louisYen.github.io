@@ -87,7 +87,7 @@ For a complete and up-to-date list of my publications, please see my
 
 
 <div class="publication-section pub-compression">
-  <h2>Model Compression</h2>
+  <h2>Efficient AI Deployment</h2>
 </div>
 
 <div class="publication-card pub-compression">
