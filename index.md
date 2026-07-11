@@ -53,23 +53,19 @@ permalink: /
 
 <nav class="home-section-nav" aria-label="Homepage sections">
 
-  <span class="home-section-nav-label">
-    Explore
-  </span>
-
-  <a href="#visualizing-ideas">
-    <i class="fas fa-eye" aria-hidden="true"></i>
-    Visualizing Ideas
+  <a class="home-nav-visual" href="#visualizing-ideas">
+    <i class="fas fa-lightbulb" aria-hidden="true"></i>
+    <span>Visualizing Ideas</span>
   </a>
 
-  <a href="#research-roadmap">
-    <i class="fas fa-map" aria-hidden="true"></i>
-    Research Roadmap
+  <a class="home-nav-roadmap" href="#research-roadmap">
+    <i class="fas fa-route" aria-hidden="true"></i>
+    <span>Research Roadmap</span>
   </a>
 
-  <a href="#how-ai-works-with-less">
-    <i class="fas fa-compress-alt" aria-hidden="true"></i>
-    How AI Works with Less
+  <a class="home-nav-less" href="#how-ai-works-with-less">
+    <i class="fas fa-sliders-h" aria-hidden="true"></i>
+    <span>How AI Works with Less</span>
   </a>
 
 </nav>
