@@ -731,29 +731,23 @@ search: false
 
 .less-ai-header {
   max-width: 760px;
-  margin: 0 auto 1.6em;
+  margin: 0 auto 1.8em;
   text-align: center;
 }
 
-.less-ai-eyebrow {
-  display: inline-block;
-  margin-bottom: 0.4em;
-  color: #a85656;
-  font-size: 0.76em;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .less-ai-header h2 {
-  margin: 0 0 0.35em;
+  margin: 0 0 0.45em;
   color: #222;
   font-size: 1.85em;
   line-height: 1.2;
 }
 
+.less-ai-title-accent {
+  color: #a85656;
+}
+
 .less-ai-header p {
-  max-width: 680px;
+  max-width: 660px;
   margin: 0 auto;
   color: #555;
   font-size: 0.94em;
@@ -777,22 +771,7 @@ search: false
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.75em;
-  text-align: left;
-}
-
-.less-ai-model-icon {
-  display: inline-flex;
-  width: 44px;
-  height: 44px;
-  flex: 0 0 44px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 13px;
-  background: #fff;
-  color: #a85656;
-  font-size: 1.15em;
-  box-shadow: 0 2px 9px rgba(168, 86, 86, 0.12);
+  text-align: center;
 }
 
 .less-ai-model-heading strong {
@@ -803,7 +782,7 @@ search: false
 
 .less-ai-model-heading span {
   display: block;
-  margin-top: 0.1em;
+  margin-top: 0.16em;
   color: #777;
   font-size: 0.76em;
 }
