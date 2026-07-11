@@ -15,7 +15,7 @@ permalink: /
   </p>
 
   <p>
-    I enjoy building machine learning algorithms that make AI models smaller, faster, and easier to adapt.
+    I enjoy building machine learning algorithms that make AI models smaller, faster, and easier to adapt for real-world deployment.
     My work spans efficient AI, generative AI, large language models, and computer vision, with recent projects
     in model adaptation, post-training quantization, knowledge distillation, efficient inference, gaze estimation,
     and personalization.
@@ -263,7 +263,7 @@ My research centers on making AI practical under limited data, compute, and memo
           <span class="detail-year">2026</span>
         </div>
         <p>
-          Adapts to new domains with only 5 samples by reusing pre-trained knowledge, making the model 5× smaller while keeping or improving accuracy, and Alfa also extends to diffusion-based LMs for reasoning.
+          Adapts gaze models to new users and domains with only 5 samples by reusing pre-trained knowledge, making the model 5× smaller while keeping or improving accuracy. The same low-rank adaptation idea also extends to diffusion-based LMs for reasoning.
         </p>
         <div class="detail-tags">AAAI'26 · Model adaptation · Gaze estimation</div>
 
