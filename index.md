@@ -1150,6 +1150,24 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
         {
+          title: "Alfa",
+          icon: "fas fa-project-diagram",
+        
+          description:
+            "Adapts a compact pre-trained model to a new user or domain using only five unlabeled target samples, without increasing inference-time model size.",
+        
+          steps: [
+            ["Model", "Pre-trained model, compressed 5×"],
+            ["Constraint", "5 unlabeled samples; more adaptation capacity needed"],
+            ["Method", "Attend to pre-trained filters with compact low-rank adaptation"],
+            ["Outcome", "More training capacity, no inference-time size growth"]
+          ],
+        
+          impact:
+            "Enables few-shot adaptation under both data and deployment constraints, adding training capacity without enlarging the deployed model."
+        },
+
+        {
           title: "DFT Gaze",
           icon: "fas fa-eye",
         
