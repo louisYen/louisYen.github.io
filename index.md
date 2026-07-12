@@ -731,7 +731,7 @@ My research centers on making AI practical under limited data, compute, and memo
       <i class="fas fa-hand-pointer"></i>
 
       <span>
-        <strong>Less Interaction</strong>
+        <strong>Less User Effort</strong>
         <small>Enable lightweight natural control</small>
       </span>
     </button>
@@ -1127,7 +1127,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     interaction: {
-      label: "Less Interaction",
+      label: "Less User Effort",
       theme: "theme-interaction",
 
       projects: [
